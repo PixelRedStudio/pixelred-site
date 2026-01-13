@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PixelRed Studio - Créateurs d'expériences mobiles intenses. Découvrez TapSafe et rejoignez la Bêta.">
+    <title>PixelRed Studio | Official Site</title>
+    
+    <!-- Google Fonts: 'Rajdhani' pour le style Gaming/Tech, 'Inter' pour la lisibilité -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Fichier CSS séparé -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV (Simple & Sticky) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-text">PIXEL<span class="text-red">RED</span></a>
+            <ul class="nav-links">
+                <li><a href="#tapsafe">Jeu</a></li>
+                <li><a href="#beta" class="nav-cta">Bêta Test</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero">
+        <!-- Background Video (Muted & Loop) -->
+        <div class="video-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video" poster="PixelRed Studio.jpg">
+            <source src="gameplay1.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+
+        <div class="hero-content container reveal">
+            <div class="logo-wrapper">
+                <img src="PixelRedStudio.png" alt="Logo PixelRed Studio" class="main-logo">
+            </div>
+            <h1>Créateurs d'expériences <br>mobiles <span class="text-red">intenses</span>.</h1>
+            <p class="subtitle">Découvrez <strong>TapSafe</strong>, notre nouveau jeu en développement.</p>
+            <div class="hero-actions">
+                <!-- Bouton modifié pour ouvrir le modal -->
+                <a href="#" id="btn-watch-trailer" class="btn btn-outline">▶ Voir le Gameplay</a>
+                <a href="#beta" class="btn btn-primary">Accès Bêta</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow"></div>
+        </div>
+    </header>
+
+    <!-- 2. SECTION FOCUS JEU: TAPSAFE -->
+    <section id="tapsafe" class="section-game">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">EN DÉVELOPPEMENT</span>
+                <h2>TAPSAFE : L'AGILITÉ PURE</h2>
+                <p>Testez vos réflexes. TapSafe est un défi d'agilité pure. Survivrez-vous au mode Hard ?</p>
+            </div>
+
+            <!-- Grille Bento/Masonry moderne -->
+            <div class="gallery-grid">
+                <!-- Image principale (prend plus de place) -->
+                <div class="gallery-item main-item reveal delay-1">
+                    <img src="ScreenMainMenu.png" alt="TapSafe Main Menu Interface">
+                    <div class="overlay">
+                        <span>Interface Épurée</span>
+                    </div>
+                </div>
+
+                <!-- Screenshots Gameplay -->
+                <div class="gallery-item reveal delay-2">
+                    <img src="GameHard.png" alt="Mode Difficile">
+                    <div class="overlay">
+                        <span>Mode Hardcore</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal delay-3">
+                    <img src="GameStreak.png" alt="Winning Streak">
+                    <div class="overlay">
+                        <span>Combo Streak</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal delay-2">
+                    <img src="GameSlow.png" alt="Mode Ralenti">
+                    <div class="overlay">
+                        <span>Focus Mode</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal delay-3">
+                    <img src="GameOver.png" alt="Game Over Screen">
+                    <div class="overlay text-red">
+                        <span>GAME OVER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SECTION STRATÉGIQUE: BÊTA -->
+    <section id="beta" class="section-beta">
+        <div class="container reveal">
+            <div class="beta-card">
+                <div class="beta-content">
+                    <h3>DEVENEZ UN <span class="text-red">PIONNIER</span></h3>
+                    <p class="beta-desc">
+                        Nous cherchons des joueurs passionnés pour tester le jeu en avant-première, 
+                        chasser les bugs et nous aider à équilibrer le gameplay.
+                    </p>
+                    <ul class="beta-benefits">
+                        <li>✅ Accès anticipé exclusif</li>
+                        <li>✅ Influence directe sur le game design</li>
+                        <li>✅ Badge "Early Adopter" au lancement</li>
+                    </ul>
+                    <a href="#beta" class="btn btn-primary btn-large glow-effect">
+                        Rejoindre le programme de test
+                    </a>
+                    <p class="small-text">Vos retours impactent directement le développement final.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. À PROPOS & FUTUR -->
+    <section id="about" class="section-about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-image reveal">
+                    <img src="Presentation.png" alt="Présentation PixelRed Studio">
+                </div>
+                <div class="about-text reveal delay-1">
+                    <h2>LE STUDIO</h2>
+                    <p>
+                        <strong>PixelRed Studio</strong> est né d'une ambition simple : ramener le "fun" immédiat sur mobile.
+                        Nous croyons aux mécaniques de jeu épurées, aux designs qui marquent et aux défis qui récompensent le skill.
+                    </p>
+                    <p>
+                        <em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes en phase de conception.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">PIXEL<span class="text-red">RED</span> STUDIO</div>
+            <div class="social-links">
+                <!-- Placeholders pour icônes sociales -->
+                <a href="#" aria-label="Twitter">Twitter / X</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Discord">Discord</a>
+            </div>
+            <p class="copyright">&copy; 2026 PixelRed Studio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <video controls id="gameplay-player">
+                <source src="gameplay1.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+    </div>
+
+    <!-- Scripts pour les animations -->
+    <script src="script.js"></script>
+</body>
+</html>
