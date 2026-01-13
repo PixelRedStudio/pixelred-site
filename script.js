@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, {
         root: null,
-        threshold: 0.15, // Déclenche quand 15% de l'élément est visible
+        threshold: 0.15, 
         rootMargin: "0px 0px -50px 0px"
     });
 
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* --- SMOOTH SCROLL NAV --- */
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            // Ignorer les boutons modaux (Videos et Beta)
+            // On ignore les clics qui servent à ouvrir des popups
             if (this.id === 'btn-watch-trailer' || this.classList.contains('js-open-beta')) return;
 
             e.preventDefault();
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (targetElement) {
                 window.scrollTo({
-                    top: targetElement.offsetTop - 70, // -70px pour la navbar fixe
+                    top: targetElement.offsetTop - 70, 
                     behavior: 'smooth'
                 });
             }
@@ -39,26 +39,24 @@ document.addEventListener('DOMContentLoaded', () => {
     /* --- VIDEO MODAL LOGIC --- */
     const videoModal = document.getElementById('video-modal');
     const btnWatch = document.getElementById('btn-watch-trailer');
-    const closeVideo = document.querySelector('.close-modal'); // Attention à bien cibler celui de la vidéo si besoin
+    const closeVideo = document.querySelector('#video-modal .close-modal');
     const videoPlayer = document.getElementById('gameplay-player');
 
     if (btnWatch && videoModal && videoPlayer) {
         btnWatch.addEventListener('click', (e) => {
             e.preventDefault();
-            videoModal.style.display = "flex"; // Utilisé flex pour le centrage CSS
+            videoModal.style.display = "flex";
             videoPlayer.play();
         });
 
-        // Fonction de fermeture vidéo
         const closeVideoModal = () => {
             videoModal.style.display = "none";
             videoPlayer.pause();
-            videoPlayer.currentTime = 0; // Reset video
+            videoPlayer.currentTime = 0; 
         };
 
         if (closeVideo) closeVideo.addEventListener('click', closeVideoModal);
 
-        // Fermer si on clique en dehors
         window.addEventListener('click', (e) => {
             if (e.target == videoModal) {
                 closeVideoModal();
@@ -66,15 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    /* --- BETA FORM MODAL LOGIC (NOUVEAU) --- */
+    /* --- BETA ACCESS MODAL LOGIC (UPDATED) --- */
     const betaModal = document.getElementById('beta-modal');
     const betaBtns = document.querySelectorAll('.js-open-beta');
     const closeBeta = document.querySelector('.close-beta');
-    const betaForm = document.getElementById('beta-form');
-    const successMsg = document.getElementById('form-success');
 
     if (betaModal && betaBtns.length > 0) {
-        // Ouvrir la modale au clic sur n'importe quel bouton beta
+        // Ouvrir la modale au clic
         betaBtns.forEach(btn => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -82,17 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        // Fermer la modale Beta
+        // Fermer la modale
         const closeBetaModal = () => {
             betaModal.style.display = "none";
-            // Reset de l'état du formulaire si on ferme et réouvre
-            if(successMsg.style.display === 'block') {
-                successMsg.style.display = 'none';
-                if(betaForm) {
-                    betaForm.style.display = 'block';
-                    betaForm.reset();
-                }
-            }
         };
 
         if (closeBeta) closeBeta.addEventListener('click', closeBetaModal);
@@ -103,26 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 closeBetaModal();
             }
         });
-
-        // Simulation d'envoi de formulaire
-        if (betaForm) {
-            betaForm.addEventListener('submit', (e) => {
-                e.preventDefault();
-                // Simulation d'envoi
-                const btn = betaForm.querySelector('button');
-                const originalText = btn.innerText;
-                btn.innerText = "ENVOI EN COURS...";
-                btn.disabled = true;
-                
-                setTimeout(() => {
-                    betaForm.style.display = 'none';
-                    successMsg.style.display = 'block';
-                    btn.innerText = originalText;
-                    btn.disabled = false;
-                }, 1500);
-            });
-        }
     }
 
-    console.log("PixelRed Studio site loaded. Systems operational.");
+    console.log("PixelRed Studio site loaded. Ready for beta testers.");
 });
