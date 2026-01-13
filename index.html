@@ -118,7 +118,7 @@
                         <li>✅ Influence directe sur le game design</li>
                         <li>✅ Badge "Early Adopter" au lancement</li>
                     </ul>
-                    <a href="#beta" class="btn btn-primary btn-large glow-effect">
+                    <a href="#" id="btn-join-beta" class="cta-button primary-btn">
                         Rejoindre le programme de test
                     </a>
                     <p class="small-text">Vos retours impactent directement le développement final.</p>
@@ -172,8 +172,40 @@
             </video>
         </div>
     </div>
+<div id="beta-modal" class="modal">
+    <div class="modal-content beta-popup">
+        <span class="close-beta">&times;</span>
+        
+        <h2>Rejoindre la Bêta de <span class="text-red">TapSafe</span></h2>
+        <p class="beta-intro">Suivez ces 2 étapes obligatoires pour accéder au jeu :</p>
 
+        <div class="beta-steps">
+            <div class="step-box">
+                <div class="step-number">1</div>
+                <div class="step-info">
+                    <h3>Rejoindre le Groupe (Obligatoire)</h3>
+                    <p>Google exige que vous soyez membre du groupe pour autoriser le téléchargement.</p>
+                    <a href="https://groups.google.com/g/tapsafe-beta" target="_blank" class="step-btn">Rejoindre le Google Group</a>
+                </div>
+            </div>
+
+            <div class="step-box">
+                <div class="step-number">2</div>
+                <div class="step-info">
+                    <h3>Télécharger le Jeu</h3>
+                    <p>Une fois dans le groupe, utilisez l'un des liens ci-dessous :</p>
+                    <div class="link-group">
+                        <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="store-link">Lien Play Store (App)</a>
+                        <a href="https://play.google.com/apps/testing/com.pixelredstudio.tapsafe" target="_blank" class="web-link">Lien Web (Testing)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="beta-note"><em>Note : Il peut y avoir un délai de quelques minutes entre l'inscription au groupe et l'accès au Store.</em></p>
+    </div>
+</div>
     <!-- Scripts pour les animations -->
     <script src="script.js"></script>
 </body>
+
 </html>
