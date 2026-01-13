@@ -6,30 +6,25 @@
     <meta name="description" content="PixelRed Studio - Créateurs d'expériences mobiles intenses. Découvrez TapSafe et rejoignez la Bêta.">
     <title>PixelRed Studio | Official Site</title>
     
-    <!-- Google Fonts: 'Rajdhani' pour le style Gaming/Tech, 'Inter' pour la lisibilité -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
     
-    <!-- Fichier CSS séparé -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAV (Simple & Sticky) -->
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#" class="logo-text">PIXEL<span class="text-red">RED</span></a>
             <ul class="nav-links">
                 <li><a href="#tapsafe">Jeu</a></li>
-                <li><a href="#beta" class="nav-cta">Bêta Test</a></li>
+                <li><a href="#" class="nav-cta js-open-beta">Bêta Test</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- 1. HERO SECTION -->
     <header class="hero">
-        <!-- Background Video (Muted & Loop) -->
         <div class="video-overlay"></div>
         <video autoplay muted loop playsinline class="hero-video" poster="PixelRed Studio.jpg">
             <source src="gameplay1.mp4" type="video/mp4">
@@ -43,9 +38,8 @@
             <h1>Créateurs d'expériences <br>mobiles <span class="text-red">intenses</span>.</h1>
             <p class="subtitle">Découvrez <strong>TapSafe</strong>, notre nouveau jeu en développement.</p>
             <div class="hero-actions">
-                <!-- Bouton modifié pour ouvrir le modal -->
                 <a href="#" id="btn-watch-trailer" class="btn btn-outline">▶ Voir le Gameplay</a>
-                <a href="#beta" class="btn btn-primary">Accès Bêta</a>
+                <a href="#" class="btn btn-primary js-open-beta">Accès Bêta</a>
             </div>
         </div>
         
@@ -55,7 +49,6 @@
         </div>
     </header>
 
-    <!-- 2. SECTION FOCUS JEU: TAPSAFE -->
     <section id="tapsafe" class="section-game">
         <div class="container">
             <div class="section-header reveal">
@@ -64,9 +57,7 @@
                 <p>Testez vos réflexes. TapSafe est un défi d'agilité pure. Survivrez-vous au mode Hard ?</p>
             </div>
 
-            <!-- Grille Bento/Masonry moderne -->
             <div class="gallery-grid">
-                <!-- Image principale (prend plus de place) -->
                 <div class="gallery-item main-item reveal delay-1">
                     <img src="ScreenMainMenu.png" alt="TapSafe Main Menu Interface">
                     <div class="overlay">
@@ -74,7 +65,6 @@
                     </div>
                 </div>
 
-                <!-- Screenshots Gameplay -->
                 <div class="gallery-item reveal delay-2">
                     <img src="GameHard.png" alt="Mode Difficile">
                     <div class="overlay">
@@ -103,7 +93,6 @@
         </div>
     </section>
 
-    <!-- 3. SECTION STRATÉGIQUE: BÊTA -->
     <section id="beta" class="section-beta">
         <div class="container reveal">
             <div class="beta-card">
@@ -118,7 +107,7 @@
                         <li>✅ Influence directe sur le game design</li>
                         <li>✅ Badge "Early Adopter" au lancement</li>
                     </ul>
-                    <a href="#" id="btn-join-beta" class="cta-button primary-btn">
+                    <a href="#" class="btn btn-primary btn-large glow-effect js-open-beta">
                         Rejoindre le programme de test
                     </a>
                     <p class="small-text">Vos retours impactent directement le développement final.</p>
@@ -127,7 +116,6 @@
         </div>
     </section>
 
-    <!-- 4. À PROPOS & FUTUR -->
     <section id="about" class="section-about">
         <div class="container">
             <div class="about-layout">
@@ -148,12 +136,10 @@
         </div>
     </section>
 
-    <!-- 5. FOOTER -->
     <footer>
         <div class="container footer-content">
             <div class="footer-logo">PIXEL<span class="text-red">RED</span> STUDIO</div>
             <div class="social-links">
-                <!-- Placeholders pour icônes sociales -->
                 <a href="#" aria-label="Twitter">Twitter / X</a>
                 <a href="#" aria-label="Instagram">Instagram</a>
                 <a href="#" aria-label="Discord">Discord</a>
@@ -162,7 +148,6 @@
         </div>
     </footer>
 
-    <!-- VIDEO MODAL -->
     <div id="video-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
@@ -172,40 +157,30 @@
             </video>
         </div>
     </div>
-<div id="beta-modal" class="modal">
-    <div class="modal-content beta-popup">
-        <span class="close-beta">&times;</span>
-        
-        <h2>Rejoindre la Bêta de <span class="text-red">TapSafe</span></h2>
-        <p class="beta-intro">Suivez ces 2 étapes obligatoires pour accéder au jeu :</p>
 
-        <div class="beta-steps">
-            <div class="step-box">
-                <div class="step-number">1</div>
-                <div class="step-info">
-                    <h3>Rejoindre le Groupe (Obligatoire)</h3>
-                    <p>Google exige que vous soyez membre du groupe pour autoriser le téléchargement.</p>
-                    <a href="https://groups.google.com/g/tapsafe-beta" target="_blank" class="step-btn">Rejoindre le Google Group</a>
-                </div>
-            </div>
-
-            <div class="step-box">
-                <div class="step-number">2</div>
-                <div class="step-info">
-                    <h3>Télécharger le Jeu</h3>
-                    <p>Une fois dans le groupe, utilisez l'un des liens ci-dessous :</p>
-                    <div class="link-group">
-                        <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="store-link">Lien Play Store (App)</a>
-                        <a href="https://play.google.com/apps/testing/com.pixelredstudio.tapsafe" target="_blank" class="web-link">Lien Web (Testing)</a>
+    <div id="beta-modal" class="modal">
+        <div class="modal-content form-content">
+            <span class="close-beta">&times;</span>
+            <div class="form-wrapper">
+                <h3>REJOINDRE LA <span class="text-red">SQUAD</span></h3>
+                <p class="subtitle" style="margin-bottom: 1.5rem;">Entrez votre email pour recevoir votre clé d'accès.</p>
+                
+                <form id="beta-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Pseudo (Optionnel)" class="pixel-input">
                     </div>
-                </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email *" required class="pixel-input">
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">VALIDER L'INSCRIPTION</button>
+                </form>
+                <p id="form-success" style="display:none; color: #4ade80; margin-top: 15px; font-weight: bold;">
+                    ✅ Demande envoyée ! À bientôt soldat.
+                </p>
             </div>
         </div>
-        <p class="beta-note"><em>Note : Il peut y avoir un délai de quelques minutes entre l'inscription au groupe et l'accès au Store.</em></p>
     </div>
-</div>
-    <!-- Scripts pour les animations -->
+
     <script src="script.js"></script>
 </body>
-
 </html>
