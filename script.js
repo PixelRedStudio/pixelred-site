@@ -69,4 +69,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     console.log("PixelRed Studio site loaded. Video assets integrated.");
-});
+
+}/* --- LOGIC BETA MODAL --- */
+    const betaModal = document.getElementById('beta-modal');
+    const btnJoinBeta = document.getElementById('btn-join-beta');
+    // On sélectionne le bouton de fermeture spécifique à la beta (la croix)
+    const closeBeta = document.querySelector('.close-beta');
+
+    if (btnJoinBeta && betaModal) {
+        // Ouvrir la fenêtre
+        btnJoinBeta.addEventListener('click', (e) => {
+            e.preventDefault(); // Empêche de remonter en haut de page
+            betaModal.style.display = "block";
+        });
+
+        // Fermer avec la croix
+        if (closeBeta) {
+            closeBeta.addEventListener('click', () => {
+                betaModal.style.display = "none";
+            });
+        }
+
+        // Fermer en cliquant en dehors (gère les deux modals: vidéo et beta)
+        window.addEventListener('click', (e) => {
+            if (e.target == betaModal) {
+                betaModal.style.display = "none";
+            }
+            // On garde aussi la logique de la vidéo existante ici si besoin
+            if (typeof modal !== 'undefined' && e.target == modal) {
+                 // Si la variable 'modal' de la vidéo est accessible
+                 modal.style.display = "none";
+                 if(typeof videoPlayer !== 'undefined') videoPlayer.pause();
+            }
+        });
+    });
