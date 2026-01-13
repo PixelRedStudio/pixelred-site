@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
-                // Optionnel: arrêter d'observer une fois révélé
-                // observer.unobserve(entry.target); 
             }
         });
     }, {
@@ -22,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     /* --- SMOOTH SCROLL NAV --- */
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            // Si c'est le bouton vidéo, on ne scroll pas (géré par le modal)
-            if (this.id === 'btn-watch-trailer') return;
+            // Ignorer les boutons modaux (Videos et Beta)
+            if (this.id === 'btn-watch-trailer' || this.classList.contains('js-open-beta')) return;
 
             e.preventDefault();
             const targetId = this.getAttribute('href');
@@ -39,70 +37,92 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* --- VIDEO MODAL LOGIC --- */
-    const modal = document.getElementById('video-modal');
+    const videoModal = document.getElementById('video-modal');
     const btnWatch = document.getElementById('btn-watch-trailer');
-    const spanClose = document.getElementsByClassName('close-modal')[0];
+    const closeVideo = document.querySelector('.close-modal'); // Attention à bien cibler celui de la vidéo si besoin
     const videoPlayer = document.getElementById('gameplay-player');
 
-    if (btnWatch && modal && videoPlayer) {
+    if (btnWatch && videoModal && videoPlayer) {
         btnWatch.addEventListener('click', (e) => {
             e.preventDefault();
-            modal.style.display = "block";
+            videoModal.style.display = "flex"; // Utilisé flex pour le centrage CSS
             videoPlayer.play();
         });
 
-        // Fonction de fermeture
-        const closeModal = () => {
-            modal.style.display = "none";
+        // Fonction de fermeture vidéo
+        const closeVideoModal = () => {
+            videoModal.style.display = "none";
             videoPlayer.pause();
             videoPlayer.currentTime = 0; // Reset video
         };
 
-        spanClose.addEventListener('click', closeModal);
+        if (closeVideo) closeVideo.addEventListener('click', closeVideoModal);
 
-        // Fermer si on clique en dehors de la vidéo
+        // Fermer si on clique en dehors
         window.addEventListener('click', (e) => {
-            if (e.target == modal) {
-                closeModal();
+            if (e.target == videoModal) {
+                closeVideoModal();
             }
         });
     }
 
-    console.log("PixelRed Studio site loaded. Video assets integrated.");
-
-}
-                          
-                          /* --- LOGIC BETA MODAL --- */
+    /* --- BETA FORM MODAL LOGIC (NOUVEAU) --- */
     const betaModal = document.getElementById('beta-modal');
-    const btnJoinBeta = document.getElementById('btn-join-beta');
-    // On sélectionne le bouton de fermeture spécifique à la beta (la croix)
+    const betaBtns = document.querySelectorAll('.js-open-beta');
     const closeBeta = document.querySelector('.close-beta');
+    const betaForm = document.getElementById('beta-form');
+    const successMsg = document.getElementById('form-success');
 
-    if (btnJoinBeta && betaModal) {
-        // Ouvrir la fenêtre
-        btnJoinBeta.addEventListener('click', (e) => {
-            e.preventDefault(); // Empêche de remonter en haut de page
-            betaModal.style.display = "block";
+    if (betaModal && betaBtns.length > 0) {
+        // Ouvrir la modale au clic sur n'importe quel bouton beta
+        betaBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                betaModal.style.display = "flex"; 
+            });
         });
 
-        // Fermer avec la croix
-        if (closeBeta) {
-            closeBeta.addEventListener('click', () => {
-                betaModal.style.display = "none";
-            });
-        }
+        // Fermer la modale Beta
+        const closeBetaModal = () => {
+            betaModal.style.display = "none";
+            // Reset de l'état du formulaire si on ferme et réouvre
+            if(successMsg.style.display === 'block') {
+                successMsg.style.display = 'none';
+                if(betaForm) {
+                    betaForm.style.display = 'block';
+                    betaForm.reset();
+                }
+            }
+        };
 
-        // Fermer en cliquant en dehors (gère les deux modals: vidéo et beta)
+        if (closeBeta) closeBeta.addEventListener('click', closeBetaModal);
+
+        // Fermer si clic en dehors
         window.addEventListener('click', (e) => {
             if (e.target == betaModal) {
-                betaModal.style.display = "none";
-            }
-            // On garde aussi la logique de la vidéo existante ici si besoin
-            if (typeof modal !== 'undefined' && e.target == modal) {
-                 // Si la variable 'modal' de la vidéo est accessible
-                 modal.style.display = "none";
-                 if(typeof videoPlayer !== 'undefined') videoPlayer.pause();
+                closeBetaModal();
             }
         });
-    });
 
+        // Simulation d'envoi de formulaire
+        if (betaForm) {
+            betaForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                // Simulation d'envoi
+                const btn = betaForm.querySelector('button');
+                const originalText = btn.innerText;
+                btn.innerText = "ENVOI EN COURS...";
+                btn.disabled = true;
+                
+                setTimeout(() => {
+                    betaForm.style.display = 'none';
+                    successMsg.style.display = 'block';
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                }, 1500);
+            });
+        }
+    }
+
+    console.log("PixelRed Studio site loaded. Systems operational.");
+});
