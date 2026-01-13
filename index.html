@@ -60,34 +60,24 @@
             <div class="gallery-grid">
                 <div class="gallery-item main-item reveal delay-1">
                     <img src="ScreenMainMenu.png" alt="TapSafe Main Menu Interface">
-                    <div class="overlay">
-                        <span>Interface Épurée</span>
-                    </div>
+                    <div class="overlay"><span>Interface Épurée</span></div>
                 </div>
 
                 <div class="gallery-item reveal delay-2">
                     <img src="GameHard.png" alt="Mode Difficile">
-                    <div class="overlay">
-                        <span>Mode Hardcore</span>
-                    </div>
+                    <div class="overlay"><span>Mode Hardcore</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
                     <img src="GameStreak.png" alt="Winning Streak">
-                    <div class="overlay">
-                        <span>Combo Streak</span>
-                    </div>
+                    <div class="overlay"><span>Combo Streak</span></div>
                 </div>
                 <div class="gallery-item reveal delay-2">
                     <img src="GameSlow.png" alt="Mode Ralenti">
-                    <div class="overlay">
-                        <span>Focus Mode</span>
-                    </div>
+                    <div class="overlay"><span>Focus Mode</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
                     <img src="GameOver.png" alt="Game Over Screen">
-                    <div class="overlay text-red">
-                        <span>GAME OVER</span>
-                    </div>
+                    <div class="overlay text-red"><span>GAME OVER</span></div>
                 </div>
             </div>
         </div>
@@ -99,18 +89,18 @@
                 <div class="beta-content">
                     <h3>DEVENEZ UN <span class="text-red">PIONNIER</span></h3>
                     <p class="beta-desc">
-                        Nous cherchons des joueurs passionnés pour tester le jeu en avant-première, 
-                        chasser les bugs et nous aider à équilibrer le gameplay.
+                        Nous cherchons des joueurs passionnés pour tester le jeu en avant-première.
+                        Rejoignez notre groupe de testeurs pour débloquer l'accès.
                     </p>
                     <ul class="beta-benefits">
-                        <li>✅ Accès anticipé exclusif</li>
-                        <li>✅ Influence directe sur le game design</li>
-                        <li>✅ Badge "Early Adopter" au lancement</li>
+                        <li>✅ Accès via Google Group</li>
+                        <li>✅ Build Android Sécurisé</li>
+                        <li>✅ Influence directe sur le jeu</li>
                     </ul>
                     <a href="#" class="btn btn-primary btn-large glow-effect js-open-beta">
                         Rejoindre le programme de test
                     </a>
-                    <p class="small-text">Vos retours impactent directement le développement final.</p>
+                    <p class="small-text">Compte Google requis pour l'accès Play Store.</p>
                 </div>
             </div>
         </div>
@@ -149,7 +139,7 @@
     </footer>
 
     <div id="video-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content video-content">
             <span class="close-modal">&times;</span>
             <video controls id="gameplay-player">
                 <source src="gameplay1.mp4" type="video/mp4">
@@ -159,24 +149,43 @@
     </div>
 
     <div id="beta-modal" class="modal">
-        <div class="modal-content form-content">
+        <div class="modal-content beta-content-box">
             <span class="close-beta">&times;</span>
-            <div class="form-wrapper">
-                <h3>REJOINDRE LA <span class="text-red">SQUAD</span></h3>
-                <p class="subtitle" style="margin-bottom: 1.5rem;">Entrez votre email pour recevoir votre clé d'accès.</p>
-                
-                <form id="beta-form">
-                    <div class="input-group">
-                        <input type="text" placeholder="Pseudo (Optionnel)" class="pixel-input">
+            
+            <div class="beta-header">
+                <h3>PROTOCOLE <span class="text-red">D'ACCÈS</span></h3>
+                <p class="subtitle">Suivez ces 2 étapes obligatoires pour installer le jeu.</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="step-box">
+                    <div class="step-number">01</div>
+                    <div class="step-info">
+                        <h4>AUTORISATION</h4>
+                        <p>Rejoignez le Google Group pour valider votre compte.</p>
+                        <a href="TON_LIEN_GOOGLE_GROUP" target="_blank" class="btn btn-outline full-width">
+                            Rejoindre le Groupe
+                        </a>
                     </div>
-                    <div class="input-group">
-                        <input type="email" placeholder="Email *" required class="pixel-input">
+                </div>
+
+                <div class="step-connector"></div>
+
+                <div class="step-box">
+                    <div class="step-number active">02</div>
+                    <div class="step-info">
+                        <h4>INSTALLATION</h4>
+                        <p>Une fois dans le groupe, choisissez votre version.</p>
+                        <div class="download-buttons">
+                            <a href="TON_LIEN_PLAYSTORE" target="_blank" class="btn btn-primary">
+                                📲 Google Play
+                            </a>
+                            <a href="TON_LIEN_WEB" target="_blank" class="btn btn-primary">
+                                💻 Version Web
+                            </a>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary full-width">VALIDER L'INSCRIPTION</button>
-                </form>
-                <p id="form-success" style="display:none; color: #4ade80; margin-top: 15px; font-weight: bold;">
-                    ✅ Demande envoyée ! À bientôt soldat.
-                </p>
+                </div>
             </div>
         </div>
     </div>
