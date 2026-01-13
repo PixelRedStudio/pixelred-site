@@ -70,7 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log("PixelRed Studio site loaded. Video assets integrated.");
 
-}/* --- LOGIC BETA MODAL --- */
+}
+                          
+                          /* --- LOGIC BETA MODAL --- */
     const betaModal = document.getElementById('beta-modal');
     const btnJoinBeta = document.getElementById('btn-join-beta');
     // On sélectionne le bouton de fermeture spécifique à la beta (la croix)
@@ -103,3 +105,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
