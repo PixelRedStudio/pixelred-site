@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PixelRed Studio - Créateurs d'expériences mobiles intenses. Découvrez TapSafe et rejoignez la Bêta.">
+    <meta name="description" content="PixelRed Studio - TapSafe Official Site">
     <title>PixelRed Studio | Official Site</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,8 +20,35 @@
         <div class="container nav-container">
             <a href="#" class="logo-text">PIXEL<span class="text-red">RED</span></a>
             <ul class="nav-links">
-                <li><a href="#tapsafe">Jeu</a></li>
-                <li><a href="#" class="nav-cta js-open-beta">Bêta Test</a></li>
+                <li><a href="#tapsafe" data-i18n="nav-game">Jeu</a></li>
+                
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="nav-cta" data-i18n="nav-download">
+                        Télécharger
+                    </a>
+                </li>
+
+                <li class="lang-container">
+                    <div class="custom-dropdown" id="lang-dropdown">
+                        <div class="selected-lang">
+                            <span class="flag-icon flag-icon-fr" id="current-flag"></span> 
+                            <span id="current-lang-text">FR</span>
+                        </div>
+                        
+                        <ul class="dropdown-list">
+                            <li data-lang="fr" data-flag="fr"><span class="flag-icon flag-icon-fr"></span> Français</li>
+                            <li data-lang="en" data-flag="us"><span class="flag-icon flag-icon-us"></span> English</li>
+                            <li data-lang="de" data-flag="de"><span class="flag-icon flag-icon-de"></span> Deutsch</li>
+                            <li data-lang="es" data-flag="es"><span class="flag-icon flag-icon-es"></span> Español</li>
+                            <li data-lang="it" data-flag="it"><span class="flag-icon flag-icon-it"></span> Italiano</li>
+                            <li data-lang="pt" data-flag="pt"><span class="flag-icon flag-icon-pt"></span> Português</li>
+                            <li data-lang="ru" data-flag="ru"><span class="flag-icon flag-icon-ru"></span> Русский</li>
+                            <li data-lang="ja" data-flag="jp"><span class="flag-icon flag-icon-jp"></span> 日本語</li>
+                            <li data-lang="ko" data-flag="kr"><span class="flag-icon flag-icon-kr"></span> 한국어</li>
+                            <li data-lang="zh" data-flag="cn"><span class="flag-icon flag-icon-cn"></span> 中文</li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
@@ -35,16 +64,21 @@
             <div class="logo-wrapper">
                 <img src="PixelRedStudio.png" alt="Logo PixelRed Studio" class="main-logo">
             </div>
-            <h1>Créateurs d'expériences <br>mobiles <span class="text-red">intenses</span>.</h1>
-            <p class="subtitle">Découvrez <strong>TapSafe</strong>, notre nouveau jeu en développement.</p>
+            
+            <h1 data-i18n="hero-title">Créateurs d'expériences <br>mobiles <span class="text-red">intenses</span>.</h1>
+            
+            <p class="subtitle" data-i18n="hero-subtitle">Découvrez <strong>TapSafe</strong>, maintenant disponible sur Android.</p>
+            
             <div class="hero-actions">
-                <a href="#" id="btn-watch-trailer" class="btn btn-outline">▶ Voir le Gameplay</a>
-                <a href="#" class="btn btn-primary js-open-beta">Accès Bêta</a>
+                <a href="#" id="btn-watch-trailer" class="btn btn-outline" data-i18n="btn-trailer">▶ Voir le Gameplay</a>
+                <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary" data-i18n="btn-playstore">
+                    Disponible sur Google Play
+                </a>
             </div>
         </div>
         
         <div class="scroll-indicator">
-            <span>Scroll</span>
+            <span data-i18n="scroll">Scroll</span>
             <div class="arrow"></div>
         </div>
     </header>
@@ -52,28 +86,28 @@
     <section id="tapsafe" class="section-game">
         <div class="container">
             <div class="section-header reveal">
-                <span class="tag">EN DÉVELOPPEMENT</span>
-                <h2>TAPSAFE : L'AGILITÉ PURE</h2>
-                <p>Testez vos réflexes. TapSafe est un défi d'agilité pure. Survivrez-vous au mode Hard ?</p>
+                <span class="tag" data-i18n="tag-available">DISPONIBLE</span>
+                <h2 data-i18n="game-title">TAPSAFE : L'AGILITÉ PURE</h2>
+                <p data-i18n="game-desc">Testez vos réflexes. TapSafe est un défi d'agilité pure. Survivrez-vous au mode Hard ?</p>
             </div>
 
             <div class="gallery-grid">
                 <div class="gallery-item main-item reveal delay-1">
                     <img src="ScreenMainMenu.png" alt="TapSafe Main Menu Interface">
-                    <div class="overlay"><span>Interface Épurée</span></div>
+                    <div class="overlay"><span data-i18n="gallery-1">Interface Épurée</span></div>
                 </div>
 
                 <div class="gallery-item reveal delay-2">
                     <img src="GameHard.png" alt="Mode Difficile">
-                    <div class="overlay"><span>Mode Hardcore</span></div>
+                    <div class="overlay"><span data-i18n="gallery-2">Mode Hardcore</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
                     <img src="GameStreak.png" alt="Winning Streak">
-                    <div class="overlay"><span>Combo Streak</span></div>
+                    <div class="overlay"><span data-i18n="gallery-3">Combo Streak</span></div>
                 </div>
                 <div class="gallery-item reveal delay-2">
                     <img src="GameSlow.png" alt="Mode Ralenti">
-                    <div class="overlay"><span>Focus Mode</span></div>
+                    <div class="overlay"><span data-i18n="gallery-4">Focus Mode</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
                     <img src="GameOver.png" alt="Game Over Screen">
@@ -83,24 +117,23 @@
         </div>
     </section>
 
-    <section id="beta" class="section-beta">
+    <section id="download" class="section-beta">
         <div class="container reveal">
             <div class="beta-card">
                 <div class="beta-content">
-                    <h3>DEVENEZ UN <span class="text-red">PIONNIER</span></h3>
-                    <p class="beta-desc">
-                        Nous cherchons des joueurs passionnés pour tester le jeu en avant-première.
-                        Rejoignez notre groupe de testeurs pour débloquer l'accès.
+                    <h3 data-i18n="download-title">PRÊT À <span class="text-red">JOUER ?</span></h3>
+                    <p class="beta-desc" data-i18n="download-desc">
+                        Le jeu est officiellement sorti. Rejoignez des milliers de joueurs et tentez de battre le record mondial.
                     </p>
                     <ul class="beta-benefits">
-                        <li>✅ Accès via Google Group</li>
-                        <li>✅ Build Android Sécurisé</li>
-                        <li>✅ Influence directe sur le jeu</li>
+                        <li data-i18n="feature-1">✅ Gratuit sur Android</li>
+                        <li data-i18n="feature-2">✅ Classement Mondial</li>
+                        <li data-i18n="feature-3">✅ Mises à jour régulières</li>
                     </ul>
-                    <a href="#" class="btn btn-primary btn-large glow-effect js-open-beta">
-                        Rejoindre le programme de test
+                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary btn-large glow-effect" data-i18n="btn-install">
+                        Installer le jeu
                     </a>
-                    <p class="small-text">Compte Google requis pour l'accès Play Store.</p>
+                    <p class="small-text" data-i18n="download-note">Nécessite Android 8.0 ou supérieur.</p>
                 </div>
             </div>
         </div>
@@ -113,13 +146,12 @@
                     <img src="Presentation.png" alt="Présentation PixelRed Studio">
                 </div>
                 <div class="about-text reveal delay-1">
-                    <h2>LE STUDIO</h2>
-                    <p>
+                    <h2 data-i18n="about-title">LE STUDIO</h2>
+                    <p data-i18n="about-p1">
                         <strong>PixelRed Studio</strong> est né d'une ambition simple : ramener le "fun" immédiat sur mobile.
-                        Nous croyons aux mécaniques de jeu épurées, aux designs qui marquent et aux défis qui récompensent le skill.
                     </p>
-                    <p>
-                        <em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes en phase de conception.
+                    <p data-i18n="about-p2">
+                        <em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes.
                     </p>
                 </div>
             </div>
@@ -130,11 +162,11 @@
         <div class="container footer-content">
             <div class="footer-logo">PIXEL<span class="text-red">RED</span> STUDIO</div>
             <div class="social-links">
-                <a href="https://x.com/PixelRedStudio" aria-label="Twitter">Twitter / X</a>
-                <a href="https://www.instagram.com/pixelredstudio/" aria-label="Instagram">Instagram</a>
-                <a href="https://discord.gg/MGjZJZBcE4" aria-label="Discord">Discord</a>
+                <a href="https://x.com/PixelRedStudio">Twitter / X</a>
+                <a href="https://www.instagram.com/pixelredstudio/">Instagram</a>
+                <a href="https://discord.gg/MGjZJZBcE4">Discord</a>
             </div>
-            <p class="copyright">&copy; 2026 PixelRed Studio. Tous droits réservés.</p>
+            <p class="copyright">&copy; 2026 PixelRed Studio. All rights reserved.</p>
         </div>
     </footer>
 
@@ -143,54 +175,10 @@
             <span class="close-modal">&times;</span>
             <video controls id="gameplay-player">
                 <source src="gameplay1.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la vidéo.
             </video>
-        </div>
-    </div>
-
-    <div id="beta-modal" class="modal">
-        <div class="modal-content beta-content-box">
-            <span class="close-beta">&times;</span>
-            
-            <div class="beta-header">
-                <h3>PROTOCOLE <span class="text-red">D'ACCÈS</span></h3>
-                <p class="subtitle">Suivez ces 2 étapes obligatoires pour installer le jeu.</p>
-            </div>
-
-            <div class="steps-container">
-                <div class="step-box">
-                    <div class="step-number">01</div>
-                    <div class="step-info">
-                        <h4>AUTORISATION</h4>
-                        <p>Rejoignez le Google Group pour valider votre compte.</p>
-                        <a href="https://groups.google.com/g/tapsafe-beta" target="_blank" class="btn btn-outline full-width">
-                            Rejoindre le Groupe
-                        </a>
-                    </div>
-                </div>
-
-                <div class="step-connector"></div>
-
-                <div class="step-box">
-                    <div class="step-number active">02</div>
-                    <div class="step-info">
-                        <h4>INSTALLATION</h4>
-                        <p>Une fois dans le groupe, choisissez votre version.</p>
-                        <div class="download-buttons">
-                            <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary">
-                                📲 Google Play
-                            </a>
-                            <a href="https://play.google.com/apps/testing/com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary">
-                                💻 Version Web
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
-
