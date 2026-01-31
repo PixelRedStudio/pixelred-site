@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Privacy Policy - TapSafe | Pixel Red Studio</title>
+	<style>
+		body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; line-height: 1.6; max-width: 720px; margin: 0 auto; padding: 24px; color: #333; }
+		h1 { font-size: 1.5rem; margin-top: 2rem; }
+		p { margin: 0.75rem 0; }
+		.links { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin: 1.5rem 0; }
+		.links a { color: #1967d2; text-decoration: none; }
+		.links a:hover { text-decoration: underline; }
+		.note { color: #666; font-size: 0.9rem; margin-top: 2rem; }
+	</style>
+	<script>
+		// Map browser language to our privacy page (without reloading if already on privacy.html with hash)
+		(function() {
+			var map = {
+				'fr': 'privacy-fr.html',
+				'en': 'privacy-en.html',
+				'de': 'privacy-de.html',
+				'es': 'privacy-es.html',
+				'it': 'privacy-it.html',
+				'pt': 'privacy-pt.html',
+				'ru': 'privacy-ru.html',
+				'ja': 'privacy-ja.html',
+				'ko': 'privacy-ko.html',
+				'zh': 'privacy-zh.html'
+			};
+			var lang = (navigator.language || navigator.userLanguage || '').toLowerCase().split(/[-_]/)[0];
+			var target = map[lang] || 'privacy-en.html';
+			// Redirect immediately to the matching policy
+			window.location.replace(target);
+		})();
+	</script>
+</head>
+<body>
+
+<h1>Privacy Policy – TapSafe</h1>
+<p>Choose your language / Choisissez votre langue:</p>
+<ul class="links">
+	<li><a href="privacy-fr.html">Français</a></li>
+	<li><a href="privacy-en.html">English</a></li>
+	<li><a href="privacy-de.html">Deutsch</a></li>
+	<li><a href="privacy-es.html">Español</a></li>
+	<li><a href="privacy-it.html">Italiano</a></li>
+	<li><a href="privacy-pt.html">Português</a></li>
+	<li><a href="privacy-ru.html">Русский</a></li>
+	<li><a href="privacy-ja.html">日本語</a></li>
+	<li><a href="privacy-ko.html">한국어</a></li>
+	<li><a href="privacy-zh.html">中文</a></li>
+</ul>
+<p class="note">If you are not redirected automatically, click your language above.<br>Si vous n'êtes pas redirigé automatiquement, cliquez sur votre langue ci-dessus.</p>
+
+</body>
+</html>
