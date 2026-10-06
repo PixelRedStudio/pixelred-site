@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Combo Streak",
             "gallery-4": "Focus Mode",
             "download-title": "PRÊT À <span class='text-red'>JOUER ?</span>",
-            "download-desc": "Le jeu est officiellement sorti. Rejoignez des milliers de joueurs et tentez de battre le record mondial.",
+            "download-desc": "Le jeu est sorti et le classement mondial vient d'ouvrir. Inscrivez votre nom tout en haut avant tout le monde.",
             "feature-1": "✅ Gratuit sur Android",
             "feature-2": "✅ Classement Mondial",
             "feature-3": "✅ Mises à jour régulières",
@@ -29,7 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Nécessite Android 8.0 ou supérieur.",
             "about-title": "LE STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> est né d'une ambition simple : ramener le fun immédiat sur mobile.",
-            "about-p2": "<em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes."
+            "about-p2": "<em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes.",
+            "footer-privacy": "Confidentialité",
+            "footer-legal": "Mentions légales"
         },
         en: {
             "nav-game": "Game",
@@ -47,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Combo Streak",
             "gallery-4": "Focus Mode",
             "download-title": "READY TO <span class='text-red'>PLAY?</span>",
-            "download-desc": "The game is officially out. Join thousands of players and try to beat the world record.",
+            "download-desc": "The game is out and the global leaderboard just opened. Get your name at the top before anyone else.",
             "feature-1": "✅ Free on Android",
             "feature-2": "✅ Global Leaderboards",
             "feature-3": "✅ Regular Updates",
@@ -55,7 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requires Android 8.0 or higher.",
             "about-title": "THE STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> was born from a simple ambition: bring immediate fun back to mobile.",
-            "about-p2": "<em>TapSafe</em> is just the beginning. Our 2026 roadmap already includes two new prototypes."
+            "about-p2": "<em>TapSafe</em> is just the beginning. Our 2026 roadmap already includes two new prototypes.",
+            "footer-privacy": "Privacy",
+            "footer-legal": "Legal notice"
         },
         de: {
             "nav-game": "Spiel",
@@ -73,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Combo Streak",
             "gallery-4": "Fokus Modus",
             "download-title": "BEREIT ZU <span class='text-red'>SPIELEN?</span>",
-            "download-desc": "Das Spiel ist offiziell veröffentlicht. Schließe dich tausenden Spielern an.",
+            "download-desc": "Das Spiel ist erschienen und die globale Rangliste ist gerade eröffnet. Hol dir Platz 1, bevor es andere tun.",
             "feature-1": "✅ Kostenlos für Android",
             "feature-2": "✅ Globale Ranglisten",
             "feature-3": "✅ Regelmäßige Updates",
@@ -81,7 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Erfordert Android 8.0 oder höher.",
             "about-title": "DAS STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> bringt den sofortigen Spielspaß zurück auf das Handy.",
-            "about-p2": "<em>TapSafe</em> ist erst der Anfang. Unsere Roadmap für 2026 ist bereit."
+            "about-p2": "<em>TapSafe</em> ist erst der Anfang. Unsere Roadmap für 2026 ist bereit.",
+            "footer-privacy": "Datenschutz",
+            "footer-legal": "Impressum"
         },
         es: {
             "nav-game": "Juego",
@@ -99,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Racha de Combos",
             "gallery-4": "Modo Enfoque",
             "download-title": "¿LISTO PARA <span class='text-red'>JUGAR?</span>",
-            "download-desc": "El juego ya está disponible. Únete a miles de jugadores hoy mismo.",
+            "download-desc": "El juego ya está disponible y el ranking mundial acaba de abrir. Pon tu nombre en lo más alto antes que nadie.",
             "feature-1": "✅ Gratis en Android",
             "feature-2": "✅ Ranking Mundial",
             "feature-3": "✅ Actualizaciones",
@@ -107,7 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requiere Android 8.0 o superior.",
             "about-title": "EL ESTUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> nació para traer diversión inmediata al móvil.",
-            "about-p2": "<em>TapSafe</em> es solo el comienzo. Más juegos llegarán en 2026."
+            "about-p2": "<em>TapSafe</em> es solo el comienzo. Más juegos llegarán en 2026.",
+            "footer-privacy": "Privacidad",
+            "footer-legal": "Aviso legal"
         },
         it: {
             "nav-game": "Gioco",
@@ -125,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Serie di Combo",
             "gallery-4": "Modalità Focus",
             "download-title": "PRONTO A <span class='text-red'>GIOCARE?</span>",
-            "download-desc": "Il gioco è ufficialmente uscito. Unisciti a migliaia di giocatori.",
+            "download-desc": "Il gioco è uscito e la classifica globale è appena stata aperta. Metti il tuo nome in cima prima di tutti.",
             "feature-1": "✅ Gratis su Android",
             "feature-2": "✅ Classifiche Globali",
             "feature-3": "✅ Aggiornamenti",
@@ -133,7 +141,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Richiede Android 8.0 o superiore.",
             "about-title": "LO STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> è nato per riportare il divertimento immediato su mobile.",
-            "about-p2": "<em>TapSafe</em> è solo l'inizio. Nuovi progetti in arrivo nel 2026."
+            "about-p2": "<em>TapSafe</em> è solo l'inizio. Nuovi progetti in arrivo nel 2026.",
+            "footer-privacy": "Privacy",
+            "footer-legal": "Note legali"
         },
         pt: {
             "nav-game": "Jogo",
@@ -151,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Combo Streak",
             "gallery-4": "Modo Foco",
             "download-title": "PRONTO PARA <span class='text-red'>JOGAR?</span>",
-            "download-desc": "O jogo foi lançado oficialmente. Junte-se a milhares de jogadores.",
+            "download-desc": "O jogo foi lançado e o ranking global acabou de abrir. Coloque seu nome no topo antes de todo mundo.",
             "feature-1": "✅ Grátis no Android",
             "feature-2": "✅ Ranking Global",
             "feature-3": "✅ Atualizações",
@@ -159,7 +169,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requer Android 8.0 ou superior.",
             "about-title": "O ESTÚDIO",
             "about-p1": "<strong>PixelRed Studio</strong> nasceu para trazer diversão imediata ao mobile.",
-            "about-p2": "<em>TapSafe</em> é apenas o começo. Mais novidades em 2026."
+            "about-p2": "<em>TapSafe</em> é apenas o começo. Mais novidades em 2026.",
+            "footer-privacy": "Privacidade",
+            "footer-legal": "Aviso legal"
         },
         ru: {
             "nav-game": "Игра",
@@ -177,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "Комбо серии",
             "gallery-4": "Режим фокуса",
             "download-title": "ГОТОВЫ <span class='text-red'>ИГРАТЬ?</span>",
-            "download-desc": "Игра официально вышла. Присоединяйтесь к тысячам игроков.",
+            "download-desc": "Игра вышла, и глобальный рейтинг только что открылся. Займите первое место раньше всех.",
             "feature-1": "✅ Бесплатно на Android",
             "feature-2": "✅ Глобальный рейтинг",
             "feature-3": "✅ Обновления",
@@ -185,7 +197,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Требуется Android 8.0+",
             "about-title": "СТУДИЯ",
             "about-p1": "<strong>PixelRed Studio</strong> создает игры для чистого удовольствия.",
-            "about-p2": "<em>TapSafe</em> - это только начало. Ждите новинок в 2026 году."
+            "about-p2": "<em>TapSafe</em> - это только начало. Ждите новинок в 2026 году.",
+            "footer-privacy": "Конфиденциальность",
+            "footer-legal": "Правовая информация"
         },
         ja: {
             "nav-game": "ゲーム",
@@ -203,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "コンボストリーク",
             "gallery-4": "集中モード",
             "download-title": "プレイする <span class='text-red'>準備はいい？</span>",
-            "download-desc": "正式リリース。何千人ものプレイヤーと一緒に世界記録に挑戦しよう。",
+            "download-desc": "正式リリース。世界ランキングがオープンしたばかり。誰よりも先に1位に名前を刻もう。",
             "feature-1": "✅ 基本プレイ無料",
             "feature-2": "✅ 世界ランキング",
             "feature-3": "✅ 定期アップデート",
@@ -211,7 +225,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Android 8.0以上が必要です。",
             "about-title": "スタジオについて",
             "about-p1": "<strong>PixelRed Studio</strong>は、純粋な楽しさをモバイルにもたらします。",
-            "about-p2": "<em>TapSafe</em>は始まりに過ぎません。2026年も新作が登場予定です。"
+            "about-p2": "<em>TapSafe</em>は始まりに過ぎません。2026年も新作が登場予定です。",
+            "footer-privacy": "プライバシー",
+            "footer-legal": "法的情報"
         },
         ko: {
             "nav-game": "게임",
@@ -229,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "콤보 스트릭",
             "gallery-4": "포커스 모드",
             "download-title": "플레이할 <span class='text-red'>준비 되셨나요?</span>",
-            "download-desc": "정식 출시되었습니다. 수천 명의 플레이어와 함께하세요.",
+            "download-desc": "정식 출시! 글로벌 랭킹이 막 열렸습니다. 누구보다 먼저 1위에 이름을 올리세요.",
             "feature-1": "✅ 안드로이드 무료",
             "feature-2": "✅ 글로벌 랭킹",
             "feature-3": "✅ 정기 업데이트",
@@ -237,7 +253,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Android 8.0 이상 필요.",
             "about-title": "스튜디오 소개",
             "about-p1": "<strong>PixelRed Studio</strong>는 모바일에 즉각적인 재미를 선사합니다.",
-            "about-p2": "<em>TapSafe</em>는 시작일 뿐입니다. 2026년 로드맵이 준비되어 있습니다."
+            "about-p2": "<em>TapSafe</em>는 시작일 뿐입니다. 2026년 로드맵이 준비되어 있습니다.",
+            "footer-privacy": "개인정보처리방침",
+            "footer-legal": "법적 고지"
         },
         zh: {
             "nav-game": "游戏",
@@ -255,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery-3": "连击系统",
             "gallery-4": "专注模式",
             "download-title": "准备好 <span class='text-red'>玩了吗？</span>",
-            "download-desc": "游戏正式发布。加入成千上万的玩家，挑战世界纪录。",
+            "download-desc": "游戏正式发布，全球排行榜刚刚开启。抢先登上榜首吧！",
             "feature-1": "✅ Android 免费",
             "feature-2": "✅ 全球排行榜",
             "feature-3": "✅ 定期更新",
@@ -263,7 +281,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "需要 Android 8.0 或更高版本。",
             "about-title": "关于工作室",
             "about-p1": "<strong>PixelRed Studio</strong> 致力于为移动端带来纯粹的乐趣。",
-            "about-p2": "<em>TapSafe</em> 只是一个开始。2026 年将有更多新作。"
+            "about-p2": "<em>TapSafe</em> 只是一个开始。2026 年将有更多新作。",
+            "footer-privacy": "隐私政策",
+            "footer-legal": "法律声明"
         }
     };
 

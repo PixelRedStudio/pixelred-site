@@ -3,8 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PixelRed Studio - TapSafe Official Site">
-    <title>PixelRed Studio | Official Site</title>
+    <title>TapSafe – Jeu de réflexes gratuit sur Android | PixelRed Studio</title>
+    <meta name="description" content="TapSafe : touchez la bonne couleur, évitez l'interdite. Jeu de réflexes gratuit sur Android avec classement mondial Google Play Games. Par PixelRed Studio, studio indépendant français.">
+    <link rel="canonical" href="https://pixelredstudio.com/">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PixelRed Studio">
+    <meta property="og:title" content="TapSafe – Jeu de réflexes gratuit sur Android">
+    <meta property="og:description" content="Touchez la bonne couleur, évitez l'interdite. Classement mondial Google Play Games.">
+    <meta property="og:url" content="https://pixelredstudio.com/">
+    <meta property="og:image" content="https://pixelredstudio.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="800">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@PixelRedStudio">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "TapSafe",
+      "operatingSystem": "Android 8.0+",
+      "applicationCategory": "GameApplication",
+      "genre": "Arcade",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe",
+      "author": { "@type": "Organization", "name": "PixelRed Studio", "url": "https://pixelredstudio.com/", "email": "contact@pixelredstudio.com" }
+    }
+    </script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +52,7 @@
                 <li><a href="#tapsafe" data-i18n="nav-game">Jeu</a></li>
                 
                 <li>
-                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="nav-cta" data-i18n="nav-download">
+                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav-download">
                         Télécharger
                     </a>
                 </li>
@@ -55,14 +84,14 @@
 
     <header class="hero">
         <div class="video-overlay"></div>
-        <video autoplay muted loop playsinline class="hero-video" poster="PixelRed Studio.jpg">
+        <video autoplay muted loop playsinline class="hero-video" poster="poster.jpg" preload="metadata">
             <source src="gameplay1.mp4" type="video/mp4">
             Votre navigateur ne supporte pas la vidéo.
         </video>
 
         <div class="hero-content container reveal">
             <div class="logo-wrapper">
-                <img src="PixelRedStudio.png" alt="Logo PixelRed Studio" class="main-logo">
+                <img src="PixelRedStudio.webp" width="512" height="512" alt="Logo PixelRed Studio" class="main-logo">
             </div>
             
             <h1 data-i18n="hero-title">Créateurs d'expériences <br>mobiles <span class="text-red">intenses</span>.</h1>
@@ -71,7 +100,7 @@
             
             <div class="hero-actions">
                 <a href="#" id="btn-watch-trailer" class="btn btn-outline" data-i18n="btn-trailer">▶ Voir le Gameplay</a>
-                <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary" data-i18n="btn-playstore">
+                <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="btn-playstore">
                     Disponible sur Google Play
                 </a>
             </div>
@@ -93,24 +122,24 @@
 
             <div class="gallery-grid">
                 <div class="gallery-item main-item reveal delay-1">
-                    <img src="ScreenMainMenu.png" alt="TapSafe Main Menu Interface">
+                    <img src="ScreenMainMenu.webp" width="540" height="1200" loading="lazy" alt="TapSafe Main Menu Interface">
                     <div class="overlay"><span data-i18n="gallery-1">Interface Épurée</span></div>
                 </div>
 
                 <div class="gallery-item reveal delay-2">
-                    <img src="GameHard.png" alt="Mode Difficile">
+                    <img src="GameHard.webp" width="540" height="1200" loading="lazy" alt="Mode Difficile">
                     <div class="overlay"><span data-i18n="gallery-2">Mode Hardcore</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
-                    <img src="GameStreak.png" alt="Winning Streak">
+                    <img src="GameStreak.webp" width="540" height="1200" loading="lazy" alt="Winning Streak">
                     <div class="overlay"><span data-i18n="gallery-3">Combo Streak</span></div>
                 </div>
                 <div class="gallery-item reveal delay-2">
-                    <img src="GameSlow.png" alt="Mode Ralenti">
+                    <img src="GameSlow.webp" width="540" height="1200" loading="lazy" alt="Mode Ralenti">
                     <div class="overlay"><span data-i18n="gallery-4">Focus Mode</span></div>
                 </div>
                 <div class="gallery-item reveal delay-3">
-                    <img src="GameOver.png" alt="Game Over Screen">
+                    <img src="GameOver.webp" width="540" height="1200" loading="lazy" alt="Game Over Screen">
                     <div class="overlay text-red"><span>GAME OVER</span></div>
                 </div>
             </div>
@@ -123,14 +152,14 @@
                 <div class="beta-content">
                     <h3 data-i18n="download-title">PRÊT À <span class="text-red">JOUER ?</span></h3>
                     <p class="beta-desc" data-i18n="download-desc">
-                        Le jeu est officiellement sorti. Rejoignez des milliers de joueurs et tentez de battre le record mondial.
+                        Le jeu est sorti et le classement mondial vient d'ouvrir. Inscrivez votre nom tout en haut avant tout le monde.
                     </p>
                     <ul class="beta-benefits">
                         <li data-i18n="feature-1">✅ Gratuit sur Android</li>
                         <li data-i18n="feature-2">✅ Classement Mondial</li>
                         <li data-i18n="feature-3">✅ Mises à jour régulières</li>
                     </ul>
-                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" class="btn btn-primary btn-large glow-effect" data-i18n="btn-install">
+                    <a href="https://play.google.com/store/apps/details?id=com.pixelredstudio.tapsafe" target="_blank" rel="noopener" class="btn btn-primary btn-large glow-effect" data-i18n="btn-install">
                         Installer le jeu
                     </a>
                     <p class="small-text" data-i18n="download-note">Nécessite Android 8.0 ou supérieur.</p>
@@ -143,7 +172,7 @@
         <div class="container">
             <div class="about-layout">
                 <div class="about-image reveal">
-                    <img src="Presentation.png" alt="Présentation PixelRed Studio">
+                    <img src="Presentation.webp" width="1200" height="800" loading="lazy" alt="Présentation PixelRed Studio">
                 </div>
                 <div class="about-text reveal delay-1">
                     <h2 data-i18n="about-title">LE STUDIO</h2>
@@ -162,9 +191,14 @@
         <div class="container footer-content">
             <div class="footer-logo">PIXEL<span class="text-red">RED</span> STUDIO</div>
             <div class="social-links">
-                <a href="https://x.com/PixelRedStudio">Twitter / X</a>
-                <a href="https://www.instagram.com/pixelredstudio/">Instagram</a>
-                <a href="https://discord.gg/MGjZJZBcE4">Discord</a>
+                <a href="https://x.com/PixelRedStudio" target="_blank" rel="noopener">Twitter / X</a>
+                <a href="https://www.instagram.com/pixelredstudio/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://discord.gg/MGjZJZBcE4" target="_blank" rel="noopener">Discord</a>
+            </div>
+            <div class="legal-links">
+                <a href="privacy.html" data-i18n="footer-privacy">Confidentialité</a>
+                <a href="mentions-legales.html" data-i18n="footer-legal">Mentions légales</a>
+                <a href="mailto:contact@pixelredstudio.com">contact@pixelredstudio.com</a>
             </div>
             <p class="copyright">&copy; 2026 PixelRed Studio. All rights reserved.</p>
         </div>
