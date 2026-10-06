@@ -29,9 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Nécessite Android 8.0 ou supérieur.",
             "about-title": "LE STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> est né d'une ambition simple : ramener le fun immédiat sur mobile.",
-            "about-p2": "<em>TapSafe</em> n'est que le début. Notre roadmap pour 2026 inclut déjà deux autres prototypes.",
+            "about-p2": "<em>TapSafe</em> n'est que le début. Flickerun, notre deuxième jeu, arrive bientôt.",
             "footer-privacy": "Confidentialité",
-            "footer-legal": "Mentions légales"
+            "footer-legal": "Mentions légales",
+            "fl-tag": "BIENTÔT",
+            "fl-title": "FLICKERUN : MÉMOIRE + RÉFLEXES",
+            "fl-desc": "Les cases s'allument. Mémorisez l'ordre. Reproduisez-le avant la fin du chrono. Notre prochain jeu arrive bientôt sur Android.",
+            "fl-1": "<strong>Run sans fin</strong> : des séquences de plus en plus longues.",
+            "fl-2": "<strong>Signal du jour</strong> : le même défi pour tous les joueurs, chaque jour.",
+            "fl-3": "<strong>12 palettes</strong> à débloquer en jouant.",
+            "fl-4": "<strong>11 langues</strong>, aucun compte requis."
         },
         en: {
             "nav-game": "Game",
@@ -57,9 +64,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requires Android 8.0 or higher.",
             "about-title": "THE STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> was born from a simple ambition: bring immediate fun back to mobile.",
-            "about-p2": "<em>TapSafe</em> is just the beginning. Our 2026 roadmap already includes two new prototypes.",
+            "about-p2": "<em>TapSafe</em> is just the beginning. Flickerun, our second game, is coming soon.",
             "footer-privacy": "Privacy",
-            "footer-legal": "Legal notice"
+            "footer-legal": "Legal notice",
+            "fl-tag": "COMING SOON",
+            "fl-title": "FLICKERUN: MEMORY + REFLEXES",
+            "fl-desc": "Tiles light up. Memorize the order. Repeat it before time runs out. Our next game is coming soon to Android.",
+            "fl-1": "<strong>Endless run</strong>: sequences keep getting longer.",
+            "fl-2": "<strong>Daily Signal</strong>: the same challenge for every player, every day.",
+            "fl-3": "<strong>12 palettes</strong> to unlock as you play.",
+            "fl-4": "<strong>11 languages</strong>, no account needed."
         },
         de: {
             "nav-game": "Spiel",
@@ -85,9 +99,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Erfordert Android 8.0 oder höher.",
             "about-title": "DAS STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> bringt den sofortigen Spielspaß zurück auf das Handy.",
-            "about-p2": "<em>TapSafe</em> ist erst der Anfang. Unsere Roadmap für 2026 ist bereit.",
+            "about-p2": "<em>TapSafe</em> ist erst der Anfang. Flickerun, unser zweites Spiel, kommt bald.",
             "footer-privacy": "Datenschutz",
-            "footer-legal": "Impressum"
+            "footer-legal": "Impressum",
+            "fl-tag": "DEMNÄCHST",
+            "fl-title": "FLICKERUN: GEDÄCHTNIS + REFLEXE",
+            "fl-desc": "Felder leuchten auf. Merke dir die Reihenfolge. Wiederhole sie, bevor die Zeit abläuft. Unser nächstes Spiel kommt bald für Android.",
+            "fl-1": "<strong>Endloser Run</strong>: Die Sequenzen werden immer länger.",
+            "fl-2": "<strong>Signal des Tages</strong>: dieselbe Herausforderung für alle, jeden Tag.",
+            "fl-3": "<strong>12 Paletten</strong> zum Freispielen.",
+            "fl-4": "<strong>11 Sprachen</strong>, kein Konto nötig."
         },
         es: {
             "nav-game": "Juego",
@@ -113,9 +134,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requiere Android 8.0 o superior.",
             "about-title": "EL ESTUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> nació para traer diversión inmediata al móvil.",
-            "about-p2": "<em>TapSafe</em> es solo el comienzo. Más juegos llegarán en 2026.",
+            "about-p2": "<em>TapSafe</em> es solo el comienzo. Flickerun, nuestro segundo juego, llega pronto.",
             "footer-privacy": "Privacidad",
-            "footer-legal": "Aviso legal"
+            "footer-legal": "Aviso legal",
+            "fl-tag": "PRÓXIMAMENTE",
+            "fl-title": "FLICKERUN: MEMORIA + REFLEJOS",
+            "fl-desc": "Las casillas se iluminan. Memoriza el orden. Repítelo antes de que se acabe el tiempo. Nuestro próximo juego llega pronto a Android.",
+            "fl-1": "<strong>Run infinito</strong>: secuencias cada vez más largas.",
+            "fl-2": "<strong>Señal del día</strong>: el mismo reto para todos, cada día.",
+            "fl-3": "<strong>12 paletas</strong> para desbloquear jugando.",
+            "fl-4": "<strong>11 idiomas</strong>, sin cuenta."
         },
         it: {
             "nav-game": "Gioco",
@@ -141,9 +169,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Richiede Android 8.0 o superiore.",
             "about-title": "LO STUDIO",
             "about-p1": "<strong>PixelRed Studio</strong> è nato per riportare il divertimento immediato su mobile.",
-            "about-p2": "<em>TapSafe</em> è solo l'inizio. Nuovi progetti in arrivo nel 2026.",
+            "about-p2": "<em>TapSafe</em> è solo l'inizio. Flickerun, il nostro secondo gioco, arriva presto.",
             "footer-privacy": "Privacy",
-            "footer-legal": "Note legali"
+            "footer-legal": "Note legali",
+            "fl-tag": "IN ARRIVO",
+            "fl-title": "FLICKERUN: MEMORIA + RIFLESSI",
+            "fl-desc": "Le caselle si illuminano. Memorizza l'ordine. Ripetilo prima che scada il tempo. Il nostro prossimo gioco arriva presto su Android.",
+            "fl-1": "<strong>Run infinita</strong>: sequenze sempre più lunghe.",
+            "fl-2": "<strong>Segnale del giorno</strong>: la stessa sfida per tutti, ogni giorno.",
+            "fl-3": "<strong>12 palette</strong> da sbloccare giocando.",
+            "fl-4": "<strong>11 lingue</strong>, nessun account richiesto."
         },
         pt: {
             "nav-game": "Jogo",
@@ -169,9 +204,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Requer Android 8.0 ou superior.",
             "about-title": "O ESTÚDIO",
             "about-p1": "<strong>PixelRed Studio</strong> nasceu para trazer diversão imediata ao mobile.",
-            "about-p2": "<em>TapSafe</em> é apenas o começo. Mais novidades em 2026.",
+            "about-p2": "<em>TapSafe</em> é apenas o começo. Flickerun, nosso segundo jogo, chega em breve.",
             "footer-privacy": "Privacidade",
-            "footer-legal": "Aviso legal"
+            "footer-legal": "Aviso legal",
+            "fl-tag": "EM BREVE",
+            "fl-title": "FLICKERUN: MEMÓRIA + REFLEXOS",
+            "fl-desc": "As casas acendem. Memorize a ordem. Repita antes que o tempo acabe. Nosso próximo jogo chega em breve ao Android.",
+            "fl-1": "<strong>Run infinito</strong>: sequências cada vez mais longas.",
+            "fl-2": "<strong>Sinal do dia</strong>: o mesmo desafio para todos, todos os dias.",
+            "fl-3": "<strong>12 paletas</strong> para desbloquear jogando.",
+            "fl-4": "<strong>11 idiomas</strong>, sem conta."
         },
         ru: {
             "nav-game": "Игра",
@@ -197,9 +239,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Требуется Android 8.0+",
             "about-title": "СТУДИЯ",
             "about-p1": "<strong>PixelRed Studio</strong> создает игры для чистого удовольствия.",
-            "about-p2": "<em>TapSafe</em> - это только начало. Ждите новинок в 2026 году.",
+            "about-p2": "<em>TapSafe</em> — это только начало. Flickerun, наша вторая игра, скоро выйдет.",
             "footer-privacy": "Конфиденциальность",
-            "footer-legal": "Правовая информация"
+            "footer-legal": "Правовая информация",
+            "fl-tag": "СКОРО",
+            "fl-title": "FLICKERUN: ПАМЯТЬ + РЕАКЦИЯ",
+            "fl-desc": "Клетки загораются. Запомните порядок. Повторите его, пока не вышло время. Наша следующая игра скоро выйдет на Android.",
+            "fl-1": "<strong>Бесконечный забег</strong>: последовательности становятся всё длиннее.",
+            "fl-2": "<strong>Сигнал дня</strong>: одно испытание для всех игроков каждый день.",
+            "fl-3": "<strong>12 палитр</strong> открываются в игре.",
+            "fl-4": "<strong>11 языков</strong>, без регистрации."
         },
         ja: {
             "nav-game": "ゲーム",
@@ -225,9 +274,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Android 8.0以上が必要です。",
             "about-title": "スタジオについて",
             "about-p1": "<strong>PixelRed Studio</strong>は、純粋な楽しさをモバイルにもたらします。",
-            "about-p2": "<em>TapSafe</em>は始まりに過ぎません。2026年も新作が登場予定です。",
+            "about-p2": "<em>TapSafe</em>は始まりに過ぎません。2作目のFlickerunがまもなく登場。",
             "footer-privacy": "プライバシー",
-            "footer-legal": "法的情報"
+            "footer-legal": "法的情報",
+            "fl-tag": "近日公開",
+            "fl-title": "FLICKERUN：記憶力＋反射神経",
+            "fl-desc": "マスが光る。順番を覚えて、時間内に再現しよう。次回作はまもなくAndroidで登場。",
+            "fl-1": "<strong>エンドレスラン</strong>：シーケンスはどんどん長くなる。",
+            "fl-2": "<strong>本日のシグナル</strong>：全プレイヤー共通の毎日チャレンジ。",
+            "fl-3": "<strong>12種類のパレット</strong>をプレイで解放。",
+            "fl-4": "<strong>11言語対応</strong>、アカウント不要。"
         },
         ko: {
             "nav-game": "게임",
@@ -253,9 +309,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "Android 8.0 이상 필요.",
             "about-title": "스튜디오 소개",
             "about-p1": "<strong>PixelRed Studio</strong>는 모바일에 즉각적인 재미를 선사합니다.",
-            "about-p2": "<em>TapSafe</em>는 시작일 뿐입니다. 2026년 로드맵이 준비되어 있습니다.",
+            "about-p2": "<em>TapSafe</em>는 시작일 뿐입니다. 두 번째 게임 Flickerun이 곧 출시됩니다.",
             "footer-privacy": "개인정보처리방침",
-            "footer-legal": "법적 고지"
+            "footer-legal": "법적 고지",
+            "fl-tag": "출시 예정",
+            "fl-title": "FLICKERUN: 기억력 + 반사신경",
+            "fl-desc": "칸이 빛납니다. 순서를 기억하고 시간 안에 따라 하세요. 다음 게임이 곧 Android로 출시됩니다.",
+            "fl-1": "<strong>무한 런</strong>: 시퀀스가 점점 길어집니다.",
+            "fl-2": "<strong>오늘의 신호</strong>: 매일 모든 플레이어에게 같은 도전.",
+            "fl-3": "<strong>12가지 팔레트</strong>를 플레이로 해금.",
+            "fl-4": "<strong>11개 언어</strong>, 계정 불필요."
         },
         zh: {
             "nav-game": "游戏",
@@ -281,9 +344,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "download-note": "需要 Android 8.0 或更高版本。",
             "about-title": "关于工作室",
             "about-p1": "<strong>PixelRed Studio</strong> 致力于为移动端带来纯粹的乐趣。",
-            "about-p2": "<em>TapSafe</em> 只是一个开始。2026 年将有更多新作。",
+            "about-p2": "<em>TapSafe</em> 只是一个开始。我们的第二款游戏 Flickerun 即将推出。",
             "footer-privacy": "隐私政策",
-            "footer-legal": "法律声明"
+            "footer-legal": "法律声明",
+            "fl-tag": "即将推出",
+            "fl-title": "FLICKERUN：记忆 + 反应",
+            "fl-desc": "方块依次亮起。记住顺序，在倒计时结束前重现。我们的下一款游戏即将登陆 Android。",
+            "fl-1": "<strong>无尽模式</strong>：序列越来越长。",
+            "fl-2": "<strong>每日信号</strong>：所有玩家每天挑战同一关。",
+            "fl-3": "<strong>12 款配色</strong>，边玩边解锁。",
+            "fl-4": "<strong>11 种语言</strong>，无需注册。"
         }
     };
 

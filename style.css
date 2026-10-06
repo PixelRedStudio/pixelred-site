@@ -230,6 +230,17 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .gallery-item:hover .overlay { transform: translateY(0); }
 
+@media (max-width: 640px) { .nav-anchor { display: none; } }
+
+/* --- COMING SOON (Flickerun) --- */
+.section-soon { border-top: 1px solid #1c1c1c; }
+.soon-layout { display: grid; gap: 2rem; align-items: center; max-width: 900px; margin: 0 auto; }
+.soon-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.soon-features { list-style: none; padding: 0; display: grid; gap: 1rem; }
+.soon-features li { color: var(--text-grey); padding-left: 1rem; border-left: 3px solid var(--primary-red); line-height: 1.5; }
+.soon-features strong { color: white; }
+@media (min-width: 768px) { .soon-layout { grid-template-columns: 1.2fr 1fr; } }
+
 /* --- BETA SECTION (Maintenant DOWNLOAD) --- */
 .section-beta { padding: var(--spacing-lg) 0; background: linear-gradient(45deg, var(--bg-panel), #1a0505); }
 .beta-card {
