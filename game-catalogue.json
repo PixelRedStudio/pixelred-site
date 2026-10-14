@@ -1,7 +1,7 @@
 {
   "boulito": {
     "name": "Boulito",
-    "stage": "preparation",
+    "stage": "beta",
     "platforms": [
       "android",
       "pc"
@@ -11,8 +11,8 @@
     "accent": "#ff657b",
     "art": "site_assets/games/boulito.png",
     "group": "https://groups.google.com/g/boulito-beta",
-    "optin": null,
-    "store": null
+    "optin": "https://play.google.com/apps/testing/com.pixelredstudio.boulito",
+    "store": "https://play.google.com/store/apps/details?id=com.pixelredstudio.boulito"
   },
   "tapsafe": {
     "name": "TapSafe",

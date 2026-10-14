@@ -7,14 +7,14 @@ Source unique : `web/site/`, avec l'historique Git du dépôt officiel.
 
 - `games/tapsafe/` : Google Play, version de production; aucun groupe requis.
 - `games/flickerun/`, `games/moltillion/` : groupe → inscription → installation.
-- `games/boulito/` : groupe accessible; inscription et installation indisponibles.
+- `games/boulito/` : Alpha Android disponible; groupe → inscription → installation.
 
 Chaque jeu possède sa page avec visuels, statut, liens et explications.
 Le parcours de bêta utilise le même compte Google aux trois étapes. Rejoindre
 un groupe ne vaut pas inscription au test. Une aide explique les problèmes
 courants et le raccourci pour les personnes déjà inscrites.
 Le site propose onze langues, des filtres PC/Android et une préférence conservée.
-Boulito n'est pas annoncé comme téléchargeable ou disponible sur Steam.
+L’Alpha Android de Boulito est disponible aux testeurs. La mise à jour 0.1.1 est en cours d’examen chez Google. Aucune disponibilité Steam n’est annoncée.
 
 ## Sources et génération
 
