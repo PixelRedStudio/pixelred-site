@@ -1,5 +1,5 @@
 {
   "name": "PixelRed Studio",
-  "description": "Portfolio officiel de PixelRed Studio : découvrez TapSafe et Flickerun, nos jeux mobiles indépendants.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "description": "Boulito, TapSafe, Flickerun et Moltillion : quatre jeux indépendants PC et Android, avec leurs accès aux tests."
 }
