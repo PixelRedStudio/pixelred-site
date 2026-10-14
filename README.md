@@ -3,36 +3,46 @@
 Site statique des quatre jeux : Boulito, TapSafe, Flickerun et Moltillion.
 Source unique : `web/site/`, avec l'historique Git du dépôt officiel.
 
-## Expérience
+## Accès aux jeux
 
-Catalogue illustré, filtres PC/Android, fiches accessibles au clavier,
-parcours vers les groupes de tests, onze langues et préférence locale conservée.
-TapSafe mène à sa fiche Google Play. Boulito est indiqué comme alpha en
-préparation; aucun téléchargement Play ou disponibilité Steam n'est annoncé.
-Flickerun et Moltillion mènent à leurs groupes pour vérifier la disponibilité
-et suivre les instructions. Rejoindre un groupe ne vaut pas inscription au test.
+- `games/tapsafe/` : Google Play, version de production; aucun groupe requis.
+- `games/flickerun/`, `games/moltillion/` : groupe → inscription → installation.
+- `games/boulito/` : groupe accessible; inscription et installation indisponibles.
 
-## Sources
+Chaque jeu possède sa page avec visuels, statut, liens et explications.
+Le parcours de bêta utilise le même compte Google aux trois étapes. Rejoindre
+un groupe ne vaut pas inscription au test. Une aide explique les problèmes
+courants et le raccourci pour les personnes déjà inscrites.
+Le site propose onze langues, des filtres PC/Android et une préférence conservée.
+Boulito n'est pas annoncé comme téléchargeable ou disponible sur Steam.
 
-- `index.html`, `style.css`, `script.js` : page responsive et interactions.
-- `locales.js`, `catalogue-languages.js` : textes dans les onze langues.
-- `site_assets/` : médias originaux du studio.
-- `privacy*.html`, `suppression-donnees.html`, `mentions-legales.html` : pages
-  publiques préexistantes conservées.
-- `CNAME` : domaine `pixelredstudio.com`.
+## Sources et génération
 
-Les textes sont disponibles en français, anglais, allemand, espagnol, italien,
+- `index.html`, `style.css`, `script.js` : catalogue et interactions communes.
+- `games/*/index.html`, `game-pages.css` : pages des quatre jeux.
+- `game-catalogue.json` : statuts et liens de référence.
+- `catalogue-data.js` : catalogue généré utilisé par le navigateur.
+- `locales.js`, `catalogue-languages.js`, `access-languages.js` : textes localisés.
+- `site_assets/` : médias originaux du studio et drapeaux vectoriels.
+- `privacy*.html`, `suppression-donnees.html`, `mentions-legales.html` : pages publiques conservées.
+- `CNAME` : domaine `pixelredstudio.com`, hébergement GitHub Pages existant.
+
+Le générateur du studio `tools/build_game_pages.py` produit les quatre pages,
+le catalogue partagé et adapte les actions du catalogue au statut réel du jeu.
+Une version de production utilise son lien Google Play; une bêta utilise le
+groupe, le lien d'inscription et la fiche du jeu. Une version en préparation
+n'expose pas de faux lien d'installation.
+
+Depuis le studio : `python tools/build_game_pages.py`, puis
+`python tools/check_portfolio.py`. Ces commandes n'envoient aucun jeu à Google Play.
+Aperçu : `python -m http.server 8765 --bind 127.0.0.1 --directory web/site`.
+Les captures et rapports sont conservés dans `operations/qa/website/`.
+
+Référence du parcours :
+https://support.google.com/googleplay/android-developer/answer/9845334
+
+Les pages sont disponibles en français, anglais, allemand, espagnol, italien,
 portugais, polonais, russe, japonais, coréen et chinois simplifié. Une relecture
-par des locuteurs natifs reste utile avant une campagne internationale.
-Aucun suivi analytique, formulaire de collecte ou publicité n'est ajouté au site.
-
-## Vérification et publication
-
-Aperçu local depuis le studio :
-`python -m http.server 8765 --bind 127.0.0.1 --directory web/site`.
-Contrôle statique : `python tools/check_portfolio.py`.
-Les captures et contrôles du navigateur sont dans `operations/qa/website/`.
-Le site conserve son hébergement GitHub Pages existant et son domaine.
-Vérifier les changements distants avant chaque publication; préserver notamment
-les textes légaux. Retour arrière : revenir au commit précédent et republier.
-Les clés de signature et sauvegardes des jeux ne doivent jamais entrer dans ce dépôt.
+par des locuteurs natifs reste à prévoir. Aucun suivi analytique ni formulaire
+de collecte n'est ajouté. Les clés et sauvegardes des jeux restent hors du site.
+Vérifier les changements distants avant de publier; préserver les pages légales.
