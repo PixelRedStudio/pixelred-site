@@ -39,7 +39,7 @@ function setLanguage(value){
   else node.textContent=value;
  });
  languagePicker.value=language;
- document.getElementById('language-flag').textContent=flags[language];
+ document.getElementById('language-flag').src='site_assets/flags/'+language+'.svg';
  document.querySelector('[data-close]').setAttribute('aria-label',message('close'));
  document.querySelector('.skip-link').setAttribute('aria-label',message('skip'));
  document.title='PixelRed Studio — Boulito · TapSafe · Flickerun · Moltillion';

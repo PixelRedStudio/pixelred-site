@@ -2,3 +2,4 @@
 .hero-feature img{height:auto}
 .hero-feature img{aspect-ratio:auto;object-fit:contain}.boulito .card-art>img,.moltillion .card-art>img{object-fit:contain}
 .optin{margin-top:12px;margin-left:8px}@media(max-width:500px){.dialog-body>.button{display:flex;width:100%;margin-left:0}.optin{margin-top:12px}}
+.language img{width:20px;height:14px;border-radius:2px;border:1px solid #ffffff30;flex-shrink:0}
