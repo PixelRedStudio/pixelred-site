@@ -43,4 +43,4 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
 languagePicker.addEventListener('change',()=>setLanguage(languagePicker.value));
 document.getElementById('year').textContent=String(new Date().getFullYear());
 setLanguage(initialLanguage);
-if(!pageGame&&games[params.get('game')])location.replace('games/'+params.get('game')+'/?lang='+language);
+if(!pageGame&&Object.prototype.hasOwnProperty.call(games,params.get('game')))location.replace('games/'+params.get('game')+'/?lang='+language);
