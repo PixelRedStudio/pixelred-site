@@ -12,7 +12,26 @@ const games = {
     "art": "site_assets/games/boulito.png",
     "group": "https://groups.google.com/g/boulito-beta",
     "optin": "https://play.google.com/apps/testing/com.pixelredstudio.boulito",
-    "store": "https://play.google.com/store/apps/details?id=com.pixelredstudio.boulito"
+    "store": "https://play.google.com/store/apps/details?id=com.pixelredstudio.boulito",
+    "release": {
+      "version": "0.1.1",
+      "status": "available",
+      "date": "2026-10-14"
+    },
+    "screenshots": [
+      {
+        "file": "site_assets/games/boulito-arena.png",
+        "caption": "bCombat"
+      },
+      {
+        "file": "site_assets/games/boulito-boss.png",
+        "caption": "bBoss"
+      },
+      {
+        "file": "site_assets/games/boulito-shop.png",
+        "caption": "bShop"
+      }
+    ]
   },
   "tapsafe": {
     "name": "TapSafe",
