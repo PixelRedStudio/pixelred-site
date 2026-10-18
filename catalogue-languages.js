@@ -19,3 +19,6 @@ for (const [language, row] of Object.entries(catalogueRows)) {
  if (values.length !== catalogueKeys.length) throw new Error('Invalid catalogue translation: ' + language);
  Object.assign(copy[language], Object.fromEntries(catalogueKeys.map((key,index)=>[key,values[index]])));
 }
+
+// Shared store navigation, including generated game pages.
+Object.entries({fr:'Boutique',en:'Shop',de:'Shop',es:'Tienda',it:'Negozio',pt:'Loja',pl:'Sklep',ru:'Магазин',ja:'ストア',ko:'상점',zh:'商店'}).forEach(([lang,label])=>{copy[lang].navShop=label;});

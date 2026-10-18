@@ -36,6 +36,7 @@ function setLanguage(value){
   link.href=assetRoot+'games/'+link.dataset.gamePage+'/?lang='+language;
  });
  document.querySelectorAll('[data-home-link]').forEach(link=>{link.href=assetRoot+'?lang='+language+'#games';});
+ document.querySelectorAll('[data-shop-link]').forEach(link=>{link.href=assetRoot+'boutique/?lang='+language;});
  try{localStorage.setItem('pixelred-language',language);}catch(_){}
  updateFilter();
 }

@@ -46,3 +46,9 @@ portugais, polonais, russe, japonais, coréen et chinois simplifié. Une relectu
 par des locuteurs natifs reste à prévoir. Aucun suivi analytique ni formulaire
 de collecte n'est ajouté. Les clés et sauvegardes des jeux restent hors du site.
 Vérifier les changements distants avant de publier; préserver les pages légales.
+
+## Boutique PC
+
+`boutique/` présente Boulito Windows au prix fixé de 4,99 € TTC. Parcours FR/EN, achat sans compte, paiement Stripe et livraison par e-mail préparés. `boutique/config.js` ne reçoit que l’adresse publique du service ; aucune clé ni fichier du jeu dans ce dépôt. Sans service raccordé, le bouton indique clairement « Bientôt disponible » et aucun paiement n’est possible.
+
+Le service séparé est dans `web/shop-service/` avec ses contrôles et sa procédure de déploiement. Les notices commerciales sont encore des notices de préparation et doivent être finalisées avant d’activer des ventes réelles.
