@@ -18,7 +18,7 @@ function render(){
  document.querySelectorAll('a[href]').forEach(node=>{const href=node.getAttribute('href');if(!href||href.startsWith('#')||href.startsWith('mailto:'))return;const target=new URL(href,location.href);if(target.origin!==location.origin||/\.(png|webp|svg|jpg|zip)$/i.test(target.pathname))return;target.searchParams.set('lang',language);node.href=target.href;});
  const amount=new Intl.NumberFormat(locales[language],{style:'currency',currency:'EUR'}).format(4.99);
  const price=document.querySelector('.price-line strong');if(price)price.textContent=amount;
- const description=document.querySelector('meta[name="description"]');if(description)description.content='Boulito · '+amount+' · '+text('intro')+' '+text('closed');
+ const description=document.querySelector('meta[name="description"]');if(description)description.content='Boulito · '+amount+' · '+text('intro')+' '+(available?text('delivery'):text('closed'));
  if(isThanks){document.getElementById('order-message').textContent=text(orderStatus);return;}
  if(!isStore)return;
  document.getElementById('buy-button').textContent=text(available?(testMode?'testBuy':'buy'):'soon').replace(/4[,.]99\s*€|€\s*4[,.]99/,amount);
