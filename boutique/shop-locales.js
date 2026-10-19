@@ -98,7 +98,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "La politique définitive précisera le responsable du traitement, les bases légales, les durées de conservation, les destinataires, les transferts éventuels et l’exercice des droits. Le parcours d’achat ne comporte aucune inscription marketing ni case publicitaire.",
     "legalContact": "La préparation technique ne vaut pas ouverture de la vente. Pour toute question :",
     "gamePrivacy": "Politique de confidentialité des jeux",
-    "licenseNotice": "Version PC : clé personnelle envoyée par e-mail, activation initiale avec Internet et jusqu’à trois PC personnels. Après activation, le jeu fonctionne hors connexion sur ce PC."
+    "licenseNotice": "Version PC : clé personnelle envoyée par e-mail, activation initiale avec Internet et jusqu’à trois PC personnels. Après activation, le jeu fonctionne hors connexion sur ce PC.",
+    "signatureTitle": "Signature Windows en cours",
+    "signatureNotice": "Boulito PC n’est pas encore signé numériquement. Une demande de signature est en cours auprès de Microsoft, sans garantie de validation ni de délai. Windows peut afficher un avertissement « éditeur inconnu » ou empêcher le lancement selon les protections de ton PC. La clé d’activation du jeu est distincte de cette signature. Prends cette limitation en compte avant tout achat."
   },
   "en": {
     "eyebrow": "THE OFFICIAL SHOP",
@@ -198,7 +200,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "The final policy will specify the data controller, legal bases, retention periods, recipients, possible transfers and how to exercise rights. The purchase process includes no marketing subscription or advertising opt-in.",
     "legalContact": "Technical preparation does not mean sales are open. For any questions:",
     "gamePrivacy": "Game privacy policy",
-    "licenseNotice": "PC version: personal key delivered by email, initial online activation and up to three personal PCs. After activation, you can play offline on that PC."
+    "licenseNotice": "PC version: personal key delivered by email, initial online activation and up to three personal PCs. After activation, you can play offline on that PC.",
+    "signatureTitle": "Windows signing application pending",
+    "signatureNotice": "Boulito PC is not digitally signed yet. A signing application is being reviewed by Microsoft, with no guarantee of approval or timing. Windows may show an “unknown publisher” warning or block the game depending on your PC’s protections. The game activation key is separate from this signature. Please consider this limitation before purchasing."
   },
   "de": {
     "eyebrow": "DER OFFIZIELLE SHOP",
@@ -298,7 +302,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "Die endgültige Richtlinie nennt Verantwortlichen, Rechtsgrundlagen, Speicherfristen, Empfänger, mögliche Übermittlungen und die Ausübung von Rechten. Der Kaufablauf enthält keine Marketinganmeldung oder Werbeeinwilligung.",
     "legalContact": "Technische Vorbereitung bedeutet keinen Verkaufsstart. Bei Fragen:",
     "gamePrivacy": "Datenschutzerklärung der Spiele",
-    "licenseNotice": "PC-Version: persönlicher Schlüssel per E-Mail, erste Aktivierung mit Internet und bis zu drei eigene PCs. Danach ist das Spiel auf dem aktivierten PC offline spielbar."
+    "licenseNotice": "PC-Version: persönlicher Schlüssel per E-Mail, erste Aktivierung mit Internet und bis zu drei eigene PCs. Danach ist das Spiel auf dem aktivierten PC offline spielbar.",
+    "signatureTitle": "Windows-Signatur beantragt",
+    "signatureNotice": "Boulito PC ist noch nicht digital signiert. Ein Signaturantrag bei Microsoft läuft; eine Genehmigung oder ein Termin ist nicht garantiert. Je nach Schutzfunktionen kann Windows vor einem unbekannten Herausgeber warnen oder den Start verhindern. Der Aktivierungsschlüssel des Spiels ist von dieser Signatur unabhängig. Bitte berücksichtige dies vor dem Kauf."
   },
   "es": {
     "eyebrow": "LA TIENDA OFICIAL",
@@ -398,7 +404,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "La política definitiva detallará el responsable del tratamiento, bases legales, plazos de conservación, destinatarios, posibles transferencias y ejercicio de derechos. El proceso de compra no incluye suscripción de marketing ni consentimiento publicitario.",
     "legalContact": "La preparación técnica no significa que las ventas estén abiertas. Para cualquier consulta:",
     "gamePrivacy": "Política de privacidad de los juegos",
-    "licenseNotice": "Versión PC: clave personal por correo, primera activación con Internet y hasta tres PC personales. Después puedes jugar sin conexión en ese PC."
+    "licenseNotice": "Versión PC: clave personal por correo, primera activación con Internet y hasta tres PC personales. Después puedes jugar sin conexión en ese PC.",
+    "signatureTitle": "Firma de Windows en trámite",
+    "signatureNotice": "Boulito PC aún no tiene firma digital. La solicitud está en trámite ante Microsoft, sin garantía de aprobación ni de plazo. Windows puede mostrar un aviso de editor desconocido o bloquear el inicio según la protección del equipo. La clave de activación del juego es independiente de esta firma. Ten en cuenta esta limitación antes de comprar."
   },
   "it": {
     "eyebrow": "IL NEGOZIO UFFICIALE",
@@ -498,7 +506,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "La politica definitiva indicherà titolare del trattamento, basi giuridiche, tempi di conservazione, destinatari, eventuali trasferimenti e modalità di esercizio dei diritti. Il processo d’acquisto non comprende iscrizioni marketing o consensi pubblicitari.",
     "legalContact": "La preparazione tecnica non significa apertura delle vendite. Per domande:",
     "gamePrivacy": "Informativa sulla privacy dei giochi",
-    "licenseNotice": "Versione PC: chiave personale via e-mail, prima attivazione online e fino a tre PC personali. Dopo l’attivazione puoi giocare offline su quel PC."
+    "licenseNotice": "Versione PC: chiave personale via e-mail, prima attivazione online e fino a tre PC personali. Dopo l’attivazione puoi giocare offline su quel PC.",
+    "signatureTitle": "Firma Windows in corso",
+    "signatureNotice": "Boulito PC non è ancora firmato digitalmente. La richiesta è in corso presso Microsoft, senza garanzie di approvazione o di tempistiche. Windows può mostrare un avviso di autore sconosciuto o impedire l’avvio in base alle protezioni del PC. La chiave di attivazione del gioco è distinta dalla firma. Considera questa limitazione prima dell’acquisto."
   },
   "pt": {
     "eyebrow": "A LOJA OFICIAL",
@@ -598,7 +608,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "A política definitiva indicará o responsável pelo tratamento, bases legais, prazos de conservação, destinatários, eventuais transferências e exercício dos direitos. O processo de compra não inclui subscrição de marketing nem consentimento publicitário.",
     "legalContact": "A preparação técnica não significa que as vendas abriram. Para questões:",
     "gamePrivacy": "Política de privacidade dos jogos",
-    "licenseNotice": "Versão PC: chave pessoal por e-mail, ativação inicial com Internet e até três PCs pessoais. Depois da ativação podes jogar offline nesse PC."
+    "licenseNotice": "Versão PC: chave pessoal por e-mail, ativação inicial com Internet e até três PCs pessoais. Depois da ativação podes jogar offline nesse PC.",
+    "signatureTitle": "Assinatura Windows em análise",
+    "signatureNotice": "Boulito PC ainda não tem assinatura digital. O pedido está em análise pela Microsoft, sem garantia de aprovação ou prazo. O Windows pode apresentar um aviso de editor desconhecido ou bloquear a execução, dependendo das proteções do PC. A chave de ativação do jogo é independente desta assinatura. Considera esta limitação antes de comprar."
   },
   "pl": {
     "eyebrow": "OFICJALNY SKLEP",
@@ -698,7 +710,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "Ostateczna polityka określi administratora danych, podstawy prawne, okresy przechowywania, odbiorców, ewentualne transfery i sposób wykonywania praw. Proces zakupu nie zawiera zapisu na marketing ani zgody reklamowej.",
     "legalContact": "Przygotowania techniczne nie oznaczają rozpoczęcia sprzedaży. Pytania kieruj na:",
     "gamePrivacy": "Polityka prywatności gier",
-    "licenseNotice": "Wersja PC: osobisty klucz e-mailem, pierwsza aktywacja przez internet i maksymalnie trzy własne komputery. Po aktywacji można grać offline na danym komputerze."
+    "licenseNotice": "Wersja PC: osobisty klucz e-mailem, pierwsza aktywacja przez internet i maksymalnie trzy własne komputery. Po aktywacji można grać offline na danym komputerze.",
+    "signatureTitle": "Wniosek o podpis Windows w toku",
+    "signatureNotice": "Boulito PC nie ma jeszcze podpisu cyfrowego. Wniosek jest rozpatrywany przez Microsoft, bez gwarancji zatwierdzenia ani terminu. Zabezpieczenia Windows mogą wyświetlić ostrzeżenie o nieznanym wydawcy lub zablokować uruchomienie. Klucz aktywacyjny gry jest niezależny od tego podpisu. Uwzględnij to ograniczenie przed zakupem."
   },
   "ru": {
     "eyebrow": "ОФИЦИАЛЬНЫЙ МАГАЗИН",
@@ -798,7 +812,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "Окончательная политика укажет оператора данных, правовые основания, сроки хранения, получателей, возможные передачи и порядок реализации прав. В процессе покупки нет подписки на маркетинг и согласия на рекламу.",
     "legalContact": "Техническая подготовка не означает начало продаж. По вопросам:",
     "gamePrivacy": "Политика конфиденциальности игр",
-    "licenseNotice": "Версия для ПК: личный ключ по электронной почте, первая активация через интернет и до трёх личных ПК. После активации на этом ПК можно играть без интернета."
+    "licenseNotice": "Версия для ПК: личный ключ по электронной почте, первая активация через интернет и до трёх личных ПК. После активации на этом ПК можно играть без интернета.",
+    "signatureTitle": "Заявка на подпись Windows рассматривается",
+    "signatureNotice": "Boulito для ПК пока не имеет цифровой подписи. Заявка рассматривается Microsoft, без гарантии одобрения или сроков. В зависимости от защиты компьютера Windows может показать предупреждение о неизвестном издателе или заблокировать запуск. Ключ активации игры не связан с этой подписью. Учитывайте это ограничение перед покупкой."
   },
   "ja": {
     "eyebrow": "公式ストア",
@@ -898,7 +914,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "正式な方針では、データ管理者、法的根拠、保存期間、受領者、移転の可能性、権利の行使方法を明示します。購入手続きにマーケティング登録や広告への同意は含まれません。",
     "legalContact": "技術的な準備は販売開始を意味しません。お問い合わせ先：",
     "gamePrivacy": "ゲームのプライバシーポリシー",
-    "licenseNotice": "PC版：個人用キーをメールで送信します。初回のオンライン認証が必要で、個人所有のPCを3台まで認証できます。認証後はそのPCでオフラインプレイが可能です。"
+    "licenseNotice": "PC版：個人用キーをメールで送信します。初回のオンライン認証が必要で、個人所有のPCを3台まで認証できます。認証後はそのPCでオフラインプレイが可能です。",
+    "signatureTitle": "Windows署名の申請手続き中",
+    "signatureNotice": "PC版Boulitoには、まだデジタル署名がありません。Microsoftへの申請手続き中ですが、承認や時期は保証されません。PCの保護設定により、Windowsが「不明な発行元」の警告を表示したり、起動をブロックしたりする場合があります。ゲームのアクティベーションキーは、この署名とは別のものです。購入前にこの制限をご確認ください。"
   },
   "ko": {
     "eyebrow": "공식 상점",
@@ -998,7 +1016,9 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "최종 방침에는 개인정보 처리 책임자, 법적 근거, 보관 기간, 수신자, 이전 가능성, 권리 행사 방법이 명시됩니다. 구매 절차에는 마케팅 가입이나 광고 동의가 포함되지 않습니다.",
     "legalContact": "기술적 준비가 판매 시작을 뜻하지는 않습니다. 문의:",
     "gamePrivacy": "게임 개인정보 처리방침",
-    "licenseNotice": "PC 버전: 개인 키가 이메일로 제공됩니다. 최초 온라인 인증이 필요하며 개인 PC 최대 3대에서 인증할 수 있습니다. 인증 후에는 해당 PC에서 오프라인으로 플레이할 수 있습니다."
+    "licenseNotice": "PC 버전: 개인 키가 이메일로 제공됩니다. 최초 온라인 인증이 필요하며 개인 PC 최대 3대에서 인증할 수 있습니다. 인증 후에는 해당 PC에서 오프라인으로 플레이할 수 있습니다.",
+    "signatureTitle": "Windows 서명 신청 진행 중",
+    "signatureNotice": "Boulito PC는 아직 디지털 서명이 없습니다. Microsoft에 서명을 신청한 상태이며, 승인이나 일정은 보장되지 않습니다. PC의 보호 설정에 따라 Windows가 알 수 없는 게시자 경고를 표시하거나 실행을 차단할 수 있습니다. 게임 활성화 키는 이 서명과 별개입니다. 구매 전에 이 제한 사항을 확인해 주세요."
   },
   "zh": {
     "eyebrow": "官方商店",
@@ -1098,6 +1118,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeText": "最终政策将明确数据控制者、法律依据、保存期限、接收方、可能的数据传输及行使权利的方式。购买流程不包含营销订阅或广告同意选项。",
     "legalContact": "技术准备不代表已经开售。如有疑问，请联系：",
     "gamePrivacy": "游戏隐私政策",
-    "licenseNotice": "PC版：个人密钥通过电子邮件发送，首次激活需要联网，最多可激活三台个人电脑。激活后可在该电脑上离线游玩。"
+    "licenseNotice": "PC版：个人密钥通过电子邮件发送，首次激活需要联网，最多可激活三台个人电脑。激活后可在该电脑上离线游玩。",
+    "signatureTitle": "Windows 签名申请处理中",
+    "signatureNotice": "Boulito PC 目前尚未进行数字签名。已向 Microsoft 提交签名申请，但不保证获批或完成时间。根据电脑的安全保护设置，Windows 可能提示“未知发布者”或阻止游戏运行。游戏激活密钥与此数字签名无关。购买前请考虑这一限制。"
   }
 };
