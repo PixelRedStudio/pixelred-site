@@ -100,7 +100,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Politique de confidentialité des jeux",
     "licenseNotice": "Version PC : clé personnelle envoyée par e-mail, activation initiale avec Internet et jusqu’à trois PC personnels. Après activation, le jeu fonctionne hors connexion sur ce PC.",
     "signatureTitle": "Signature Windows en cours",
-    "signatureNotice": "Boulito PC n’est pas encore signé numériquement. Une demande de signature est en cours auprès de Microsoft, sans garantie de validation ni de délai. Windows peut afficher un avertissement « éditeur inconnu » ou empêcher le lancement selon les protections de ton PC. La clé d’activation du jeu est distincte de cette signature. Prends cette limitation en compte avant tout achat."
+    "signatureNotice": "Boulito PC n’est pas encore signé numériquement. Une demande de signature est en cours auprès de Microsoft, sans garantie de validation ni de délai. Windows peut afficher un avertissement « éditeur inconnu » ou empêcher le lancement selon les protections de ton PC. La clé d’activation du jeu est distincte de cette signature. Prends cette limitation en compte avant tout achat.",
+    "demoEyebrow": "ESSAIE BOULITO GRATUITEMENT",
+    "demoTitle": "5 vagues pour découvrir ton prochain build.",
+    "demoText": "Joue en difficulté 0, sans compte ni clé. Après la cinquième vague, découvre le jeu complet : 20 vagues, six difficultés et le mode sans fin.",
+    "demoDownload": "Télécharger la démo Windows",
+    "demoNote": "Windows 10/11 · 64 bits · environ 131 Mo · sauvegarde séparée. Version non signée : Windows peut afficher un avertissement ou bloquer le lancement."
   },
   "en": {
     "eyebrow": "THE OFFICIAL SHOP",
@@ -202,7 +207,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Game privacy policy",
     "licenseNotice": "PC version: personal key delivered by email, initial online activation and up to three personal PCs. After activation, you can play offline on that PC.",
     "signatureTitle": "Windows signing application pending",
-    "signatureNotice": "Boulito PC is not digitally signed yet. A signing application is being reviewed by Microsoft, with no guarantee of approval or timing. Windows may show an “unknown publisher” warning or block the game depending on your PC’s protections. The game activation key is separate from this signature. Please consider this limitation before purchasing."
+    "signatureNotice": "Boulito PC is not digitally signed yet. A signing application is being reviewed by Microsoft, with no guarantee of approval or timing. Windows may show an “unknown publisher” warning or block the game depending on your PC’s protections. The game activation key is separate from this signature. Please consider this limitation before purchasing.",
+    "demoEyebrow": "TRY BOULITO FOR FREE",
+    "demoTitle": "5 waves to find your next build.",
+    "demoText": "Play on difficulty 0, with no account or key. After wave five, discover the full game: 20 waves, six difficulties and endless mode.",
+    "demoDownload": "Download Windows demo",
+    "demoNote": "Windows 10/11 · 64-bit · about 131 MB · separate save. Unsigned build: Windows may warn or block launch."
   },
   "de": {
     "eyebrow": "DER OFFIZIELLE SHOP",
@@ -304,7 +314,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Datenschutzerklärung der Spiele",
     "licenseNotice": "PC-Version: persönlicher Schlüssel per E-Mail, erste Aktivierung mit Internet und bis zu drei eigene PCs. Danach ist das Spiel auf dem aktivierten PC offline spielbar.",
     "signatureTitle": "Windows-Signatur beantragt",
-    "signatureNotice": "Boulito PC ist noch nicht digital signiert. Ein Signaturantrag bei Microsoft läuft; eine Genehmigung oder ein Termin ist nicht garantiert. Je nach Schutzfunktionen kann Windows vor einem unbekannten Herausgeber warnen oder den Start verhindern. Der Aktivierungsschlüssel des Spiels ist von dieser Signatur unabhängig. Bitte berücksichtige dies vor dem Kauf."
+    "signatureNotice": "Boulito PC ist noch nicht digital signiert. Ein Signaturantrag bei Microsoft läuft; eine Genehmigung oder ein Termin ist nicht garantiert. Je nach Schutzfunktionen kann Windows vor einem unbekannten Herausgeber warnen oder den Start verhindern. Der Aktivierungsschlüssel des Spiels ist von dieser Signatur unabhängig. Bitte berücksichtige dies vor dem Kauf.",
+    "demoEyebrow": "BOULITO KOSTENLOS TESTEN",
+    "demoTitle": "5 Wellen für deinen nächsten Build.",
+    "demoText": "Spiele auf Schwierigkeit 0, ohne Konto oder Schlüssel. Nach fünf Wellen wartet das Vollspiel mit 20 Wellen, sechs Schwierigkeitsgraden und Endlosmodus.",
+    "demoDownload": "Windows-Demo herunterladen",
+    "demoNote": "Windows 10/11 · 64 Bit · ca. 131 MB · separater Spielstand. Nicht signiert: Windows kann warnen oder den Start blockieren."
   },
   "es": {
     "eyebrow": "LA TIENDA OFICIAL",
@@ -406,7 +421,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Política de privacidad de los juegos",
     "licenseNotice": "Versión PC: clave personal por correo, primera activación con Internet y hasta tres PC personales. Después puedes jugar sin conexión en ese PC.",
     "signatureTitle": "Firma de Windows en trámite",
-    "signatureNotice": "Boulito PC aún no tiene firma digital. La solicitud está en trámite ante Microsoft, sin garantía de aprobación ni de plazo. Windows puede mostrar un aviso de editor desconocido o bloquear el inicio según la protección del equipo. La clave de activación del juego es independiente de esta firma. Ten en cuenta esta limitación antes de comprar."
+    "signatureNotice": "Boulito PC aún no tiene firma digital. La solicitud está en trámite ante Microsoft, sin garantía de aprobación ni de plazo. Windows puede mostrar un aviso de editor desconocido o bloquear el inicio según la protección del equipo. La clave de activación del juego es independiente de esta firma. Ten en cuenta esta limitación antes de comprar.",
+    "demoEyebrow": "PRUEBA BOULITO GRATIS",
+    "demoTitle": "5 oleadas para descubrir tu próxima estrategia.",
+    "demoText": "Juega en dificultad 0, sin cuenta ni clave. Tras cinco oleadas, descubre el juego completo: 20 oleadas, seis dificultades y modo infinito.",
+    "demoDownload": "Descargar demo para Windows",
+    "demoNote": "Windows 10/11 · 64 bits · unos 131 MB · partida guardada independiente. Sin firma digital: Windows puede advertir o bloquear el inicio."
   },
   "it": {
     "eyebrow": "IL NEGOZIO UFFICIALE",
@@ -508,7 +528,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Informativa sulla privacy dei giochi",
     "licenseNotice": "Versione PC: chiave personale via e-mail, prima attivazione online e fino a tre PC personali. Dopo l’attivazione puoi giocare offline su quel PC.",
     "signatureTitle": "Firma Windows in corso",
-    "signatureNotice": "Boulito PC non è ancora firmato digitalmente. La richiesta è in corso presso Microsoft, senza garanzie di approvazione o di tempistiche. Windows può mostrare un avviso di autore sconosciuto o impedire l’avvio in base alle protezioni del PC. La chiave di attivazione del gioco è distinta dalla firma. Considera questa limitazione prima dell’acquisto."
+    "signatureNotice": "Boulito PC non è ancora firmato digitalmente. La richiesta è in corso presso Microsoft, senza garanzie di approvazione o di tempistiche. Windows può mostrare un avviso di autore sconosciuto o impedire l’avvio in base alle protezioni del PC. La chiave di attivazione del gioco è distinta dalla firma. Considera questa limitazione prima dell’acquisto.",
+    "demoEyebrow": "PROVA BOULITO GRATIS",
+    "demoTitle": "5 ondate per scoprire la tua prossima build.",
+    "demoText": "Gioca a difficoltà 0, senza account o chiave. Dopo cinque ondate, scopri il gioco completo: 20 ondate, sei difficoltà e modalità infinita.",
+    "demoDownload": "Scarica la demo Windows",
+    "demoNote": "Windows 10/11 · 64 bit · circa 131 MB · salvataggio separato. Versione non firmata: Windows può mostrare un avviso o bloccare l’avvio."
   },
   "pt": {
     "eyebrow": "A LOJA OFICIAL",
@@ -610,7 +635,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Política de privacidade dos jogos",
     "licenseNotice": "Versão PC: chave pessoal por e-mail, ativação inicial com Internet e até três PCs pessoais. Depois da ativação podes jogar offline nesse PC.",
     "signatureTitle": "Assinatura Windows em análise",
-    "signatureNotice": "Boulito PC ainda não tem assinatura digital. O pedido está em análise pela Microsoft, sem garantia de aprovação ou prazo. O Windows pode apresentar um aviso de editor desconhecido ou bloquear a execução, dependendo das proteções do PC. A chave de ativação do jogo é independente desta assinatura. Considera esta limitação antes de comprar."
+    "signatureNotice": "Boulito PC ainda não tem assinatura digital. O pedido está em análise pela Microsoft, sem garantia de aprovação ou prazo. O Windows pode apresentar um aviso de editor desconhecido ou bloquear a execução, dependendo das proteções do PC. A chave de ativação do jogo é independente desta assinatura. Considera esta limitação antes de comprar.",
+    "demoEyebrow": "EXPERIMENTA BOULITO GRÁTIS",
+    "demoTitle": "5 ondas para descobrires a tua próxima build.",
+    "demoText": "Joga na dificuldade 0, sem conta nem chave. Depois de cinco ondas, descobre o jogo completo: 20 ondas, seis dificuldades e modo infinito.",
+    "demoDownload": "Descarregar demo Windows",
+    "demoNote": "Windows 10/11 · 64 bits · cerca de 131 MB · gravação separada. Versão sem assinatura: o Windows pode avisar ou bloquear o arranque."
   },
   "pl": {
     "eyebrow": "OFICJALNY SKLEP",
@@ -712,7 +742,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Polityka prywatności gier",
     "licenseNotice": "Wersja PC: osobisty klucz e-mailem, pierwsza aktywacja przez internet i maksymalnie trzy własne komputery. Po aktywacji można grać offline na danym komputerze.",
     "signatureTitle": "Wniosek o podpis Windows w toku",
-    "signatureNotice": "Boulito PC nie ma jeszcze podpisu cyfrowego. Wniosek jest rozpatrywany przez Microsoft, bez gwarancji zatwierdzenia ani terminu. Zabezpieczenia Windows mogą wyświetlić ostrzeżenie o nieznanym wydawcy lub zablokować uruchomienie. Klucz aktywacyjny gry jest niezależny od tego podpisu. Uwzględnij to ograniczenie przed zakupem."
+    "signatureNotice": "Boulito PC nie ma jeszcze podpisu cyfrowego. Wniosek jest rozpatrywany przez Microsoft, bez gwarancji zatwierdzenia ani terminu. Zabezpieczenia Windows mogą wyświetlić ostrzeżenie o nieznanym wydawcy lub zablokować uruchomienie. Klucz aktywacyjny gry jest niezależny od tego podpisu. Uwzględnij to ograniczenie przed zakupem.",
+    "demoEyebrow": "WYPRÓBUJ BOULITO ZA DARMO",
+    "demoTitle": "5 fal, aby odkryć nową strategię.",
+    "demoText": "Graj na poziomie trudności 0, bez konta i klucza. Po pięciu falach poznaj pełną grę: 20 fal, sześć poziomów trudności i tryb nieskończony.",
+    "demoDownload": "Pobierz demo na Windows",
+    "demoNote": "Windows 10/11 · 64 bity · około 131 MB · oddzielny zapis. Wersja bez podpisu: Windows może ostrzec lub zablokować uruchomienie."
   },
   "ru": {
     "eyebrow": "ОФИЦИАЛЬНЫЙ МАГАЗИН",
@@ -814,7 +849,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "Политика конфиденциальности игр",
     "licenseNotice": "Версия для ПК: личный ключ по электронной почте, первая активация через интернет и до трёх личных ПК. После активации на этом ПК можно играть без интернета.",
     "signatureTitle": "Заявка на подпись Windows рассматривается",
-    "signatureNotice": "Boulito для ПК пока не имеет цифровой подписи. Заявка рассматривается Microsoft, без гарантии одобрения или сроков. В зависимости от защиты компьютера Windows может показать предупреждение о неизвестном издателе или заблокировать запуск. Ключ активации игры не связан с этой подписью. Учитывайте это ограничение перед покупкой."
+    "signatureNotice": "Boulito для ПК пока не имеет цифровой подписи. Заявка рассматривается Microsoft, без гарантии одобрения или сроков. В зависимости от защиты компьютера Windows может показать предупреждение о неизвестном издателе или заблокировать запуск. Ключ активации игры не связан с этой подписью. Учитывайте это ограничение перед покупкой.",
+    "demoEyebrow": "ПОПРОБУЙ BOULITO БЕСПЛАТНО",
+    "demoTitle": "5 волн для твоей новой сборки.",
+    "demoText": "Играй на сложности 0 без аккаунта и ключа. После пяти волн открой полную игру: 20 волн, шесть уровней сложности и бесконечный режим.",
+    "demoDownload": "Скачать демо для Windows",
+    "demoNote": "Windows 10/11 · 64 бита · около 131 МБ · отдельное сохранение. Без цифровой подписи: Windows может показать предупреждение или заблокировать запуск."
   },
   "ja": {
     "eyebrow": "公式ストア",
@@ -916,7 +956,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "ゲームのプライバシーポリシー",
     "licenseNotice": "PC版：個人用キーをメールで送信します。初回のオンライン認証が必要で、個人所有のPCを3台まで認証できます。認証後はそのPCでオフラインプレイが可能です。",
     "signatureTitle": "Windows署名の申請手続き中",
-    "signatureNotice": "PC版Boulitoには、まだデジタル署名がありません。Microsoftへの申請手続き中ですが、承認や時期は保証されません。PCの保護設定により、Windowsが「不明な発行元」の警告を表示したり、起動をブロックしたりする場合があります。ゲームのアクティベーションキーは、この署名とは別のものです。購入前にこの制限をご確認ください。"
+    "signatureNotice": "PC版Boulitoには、まだデジタル署名がありません。Microsoftへの申請手続き中ですが、承認や時期は保証されません。PCの保護設定により、Windowsが「不明な発行元」の警告を表示したり、起動をブロックしたりする場合があります。ゲームのアクティベーションキーは、この署名とは別のものです。購入前にこの制限をご確認ください。",
+    "demoEyebrow": "BOULITOを無料体験",
+    "demoTitle": "5ウェーブで自分のビルドを見つけよう。",
+    "demoText": "アカウントやキー不要、難易度0でプレイ。5ウェーブの後は、20ウェーブ・6段階の難易度・エンドレスモードを備えた製品版へ。",
+    "demoDownload": "Windows体験版をダウンロード",
+    "demoNote": "Windows 10/11 · 64ビット · 約131 MB · セーブは別管理。未署名のため、Windowsが警告を表示したり起動をブロックする場合があります。"
   },
   "ko": {
     "eyebrow": "공식 상점",
@@ -1018,7 +1063,12 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "게임 개인정보 처리방침",
     "licenseNotice": "PC 버전: 개인 키가 이메일로 제공됩니다. 최초 온라인 인증이 필요하며 개인 PC 최대 3대에서 인증할 수 있습니다. 인증 후에는 해당 PC에서 오프라인으로 플레이할 수 있습니다.",
     "signatureTitle": "Windows 서명 신청 진행 중",
-    "signatureNotice": "Boulito PC는 아직 디지털 서명이 없습니다. Microsoft에 서명을 신청한 상태이며, 승인이나 일정은 보장되지 않습니다. PC의 보호 설정에 따라 Windows가 알 수 없는 게시자 경고를 표시하거나 실행을 차단할 수 있습니다. 게임 활성화 키는 이 서명과 별개입니다. 구매 전에 이 제한 사항을 확인해 주세요."
+    "signatureNotice": "Boulito PC는 아직 디지털 서명이 없습니다. Microsoft에 서명을 신청한 상태이며, 승인이나 일정은 보장되지 않습니다. PC의 보호 설정에 따라 Windows가 알 수 없는 게시자 경고를 표시하거나 실행을 차단할 수 있습니다. 게임 활성화 키는 이 서명과 별개입니다. 구매 전에 이 제한 사항을 확인해 주세요.",
+    "demoEyebrow": "BOULITO 무료 체험",
+    "demoTitle": "5개 웨이브에서 나만의 빌드를 찾아보세요.",
+    "demoText": "계정이나 키 없이 난이도 0으로 플레이하세요. 5개 웨이브 후에는 20개 웨이브, 6단계 난이도, 무한 모드가 있는 정식 게임을 만나보세요.",
+    "demoDownload": "Windows 데모 다운로드",
+    "demoNote": "Windows 10/11 · 64비트 · 약 131 MB · 별도 저장. 서명되지 않은 버전으로 Windows에서 경고하거나 실행을 차단할 수 있습니다."
   },
   "zh": {
     "eyebrow": "官方商店",
@@ -1120,6 +1170,11 @@ window.PIXELRED_SHOP_STRINGS={
     "gamePrivacy": "游戏隐私政策",
     "licenseNotice": "PC版：个人密钥通过电子邮件发送，首次激活需要联网，最多可激活三台个人电脑。激活后可在该电脑上离线游玩。",
     "signatureTitle": "Windows 签名申请处理中",
-    "signatureNotice": "Boulito PC 目前尚未进行数字签名。已向 Microsoft 提交签名申请，但不保证获批或完成时间。根据电脑的安全保护设置，Windows 可能提示“未知发布者”或阻止游戏运行。游戏激活密钥与此数字签名无关。购买前请考虑这一限制。"
+    "signatureNotice": "Boulito PC 目前尚未进行数字签名。已向 Microsoft 提交签名申请，但不保证获批或完成时间。根据电脑的安全保护设置，Windows 可能提示“未知发布者”或阻止游戏运行。游戏激活密钥与此数字签名无关。购买前请考虑这一限制。",
+    "demoEyebrow": "免费试玩 BOULITO",
+    "demoTitle": "用5波战斗探索你的新流派。",
+    "demoText": "无需账号或密钥，以难度0开始游戏。五波后体验完整版：20波战斗、六个难度和无尽模式。",
+    "demoDownload": "下载 Windows 试玩版",
+    "demoNote": "Windows 10/11 · 64位 · 约131 MB · 独立存档。此版本尚未数字签名，Windows 可能显示警告或阻止启动。"
   }
 };
