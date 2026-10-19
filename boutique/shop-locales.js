@@ -97,7 +97,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Avant l’ouverture",
     "privacyBeforeText": "La politique définitive précisera le responsable du traitement, les bases légales, les durées de conservation, les destinataires, les transferts éventuels et l’exercice des droits. Le parcours d’achat ne comporte aucune inscription marketing ni case publicitaire.",
     "legalContact": "La préparation technique ne vaut pas ouverture de la vente. Pour toute question :",
-    "gamePrivacy": "Politique de confidentialité des jeux"
+    "gamePrivacy": "Politique de confidentialité des jeux",
+    "licenseNotice": "Version PC : clé personnelle envoyée par e-mail, activation initiale avec Internet et jusqu’à trois PC personnels. Après activation, le jeu fonctionne hors connexion sur ce PC."
   },
   "en": {
     "eyebrow": "THE OFFICIAL SHOP",
@@ -196,7 +197,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Before opening",
     "privacyBeforeText": "The final policy will specify the data controller, legal bases, retention periods, recipients, possible transfers and how to exercise rights. The purchase process includes no marketing subscription or advertising opt-in.",
     "legalContact": "Technical preparation does not mean sales are open. For any questions:",
-    "gamePrivacy": "Game privacy policy"
+    "gamePrivacy": "Game privacy policy",
+    "licenseNotice": "PC version: personal key delivered by email, initial online activation and up to three personal PCs. After activation, you can play offline on that PC."
   },
   "de": {
     "eyebrow": "DER OFFIZIELLE SHOP",
@@ -295,7 +297,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Vor der Eröffnung",
     "privacyBeforeText": "Die endgültige Richtlinie nennt Verantwortlichen, Rechtsgrundlagen, Speicherfristen, Empfänger, mögliche Übermittlungen und die Ausübung von Rechten. Der Kaufablauf enthält keine Marketinganmeldung oder Werbeeinwilligung.",
     "legalContact": "Technische Vorbereitung bedeutet keinen Verkaufsstart. Bei Fragen:",
-    "gamePrivacy": "Datenschutzerklärung der Spiele"
+    "gamePrivacy": "Datenschutzerklärung der Spiele",
+    "licenseNotice": "PC-Version: persönlicher Schlüssel per E-Mail, erste Aktivierung mit Internet und bis zu drei eigene PCs. Danach ist das Spiel auf dem aktivierten PC offline spielbar."
   },
   "es": {
     "eyebrow": "LA TIENDA OFICIAL",
@@ -394,7 +397,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Antes de la apertura",
     "privacyBeforeText": "La política definitiva detallará el responsable del tratamiento, bases legales, plazos de conservación, destinatarios, posibles transferencias y ejercicio de derechos. El proceso de compra no incluye suscripción de marketing ni consentimiento publicitario.",
     "legalContact": "La preparación técnica no significa que las ventas estén abiertas. Para cualquier consulta:",
-    "gamePrivacy": "Política de privacidad de los juegos"
+    "gamePrivacy": "Política de privacidad de los juegos",
+    "licenseNotice": "Versión PC: clave personal por correo, primera activación con Internet y hasta tres PC personales. Después puedes jugar sin conexión en ese PC."
   },
   "it": {
     "eyebrow": "IL NEGOZIO UFFICIALE",
@@ -493,7 +497,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Prima dell’apertura",
     "privacyBeforeText": "La politica definitiva indicherà titolare del trattamento, basi giuridiche, tempi di conservazione, destinatari, eventuali trasferimenti e modalità di esercizio dei diritti. Il processo d’acquisto non comprende iscrizioni marketing o consensi pubblicitari.",
     "legalContact": "La preparazione tecnica non significa apertura delle vendite. Per domande:",
-    "gamePrivacy": "Informativa sulla privacy dei giochi"
+    "gamePrivacy": "Informativa sulla privacy dei giochi",
+    "licenseNotice": "Versione PC: chiave personale via e-mail, prima attivazione online e fino a tre PC personali. Dopo l’attivazione puoi giocare offline su quel PC."
   },
   "pt": {
     "eyebrow": "A LOJA OFICIAL",
@@ -592,7 +597,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Antes da abertura",
     "privacyBeforeText": "A política definitiva indicará o responsável pelo tratamento, bases legais, prazos de conservação, destinatários, eventuais transferências e exercício dos direitos. O processo de compra não inclui subscrição de marketing nem consentimento publicitário.",
     "legalContact": "A preparação técnica não significa que as vendas abriram. Para questões:",
-    "gamePrivacy": "Política de privacidade dos jogos"
+    "gamePrivacy": "Política de privacidade dos jogos",
+    "licenseNotice": "Versão PC: chave pessoal por e-mail, ativação inicial com Internet e até três PCs pessoais. Depois da ativação podes jogar offline nesse PC."
   },
   "pl": {
     "eyebrow": "OFICJALNY SKLEP",
@@ -691,7 +697,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Przed otwarciem",
     "privacyBeforeText": "Ostateczna polityka określi administratora danych, podstawy prawne, okresy przechowywania, odbiorców, ewentualne transfery i sposób wykonywania praw. Proces zakupu nie zawiera zapisu na marketing ani zgody reklamowej.",
     "legalContact": "Przygotowania techniczne nie oznaczają rozpoczęcia sprzedaży. Pytania kieruj na:",
-    "gamePrivacy": "Polityka prywatności gier"
+    "gamePrivacy": "Polityka prywatności gier",
+    "licenseNotice": "Wersja PC: osobisty klucz e-mailem, pierwsza aktywacja przez internet i maksymalnie trzy własne komputery. Po aktywacji można grać offline na danym komputerze."
   },
   "ru": {
     "eyebrow": "ОФИЦИАЛЬНЫЙ МАГАЗИН",
@@ -790,7 +797,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "Перед открытием",
     "privacyBeforeText": "Окончательная политика укажет оператора данных, правовые основания, сроки хранения, получателей, возможные передачи и порядок реализации прав. В процессе покупки нет подписки на маркетинг и согласия на рекламу.",
     "legalContact": "Техническая подготовка не означает начало продаж. По вопросам:",
-    "gamePrivacy": "Политика конфиденциальности игр"
+    "gamePrivacy": "Политика конфиденциальности игр",
+    "licenseNotice": "Версия для ПК: личный ключ по электронной почте, первая активация через интернет и до трёх личных ПК. После активации на этом ПК можно играть без интернета."
   },
   "ja": {
     "eyebrow": "公式ストア",
@@ -889,7 +897,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "オープン前に",
     "privacyBeforeText": "正式な方針では、データ管理者、法的根拠、保存期間、受領者、移転の可能性、権利の行使方法を明示します。購入手続きにマーケティング登録や広告への同意は含まれません。",
     "legalContact": "技術的な準備は販売開始を意味しません。お問い合わせ先：",
-    "gamePrivacy": "ゲームのプライバシーポリシー"
+    "gamePrivacy": "ゲームのプライバシーポリシー",
+    "licenseNotice": "PC版：個人用キーをメールで送信します。初回のオンライン認証が必要で、個人所有のPCを3台まで認証できます。認証後はそのPCでオフラインプレイが可能です。"
   },
   "ko": {
     "eyebrow": "공식 상점",
@@ -988,7 +997,8 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "오픈 전",
     "privacyBeforeText": "최종 방침에는 개인정보 처리 책임자, 법적 근거, 보관 기간, 수신자, 이전 가능성, 권리 행사 방법이 명시됩니다. 구매 절차에는 마케팅 가입이나 광고 동의가 포함되지 않습니다.",
     "legalContact": "기술적 준비가 판매 시작을 뜻하지는 않습니다. 문의:",
-    "gamePrivacy": "게임 개인정보 처리방침"
+    "gamePrivacy": "게임 개인정보 처리방침",
+    "licenseNotice": "PC 버전: 개인 키가 이메일로 제공됩니다. 최초 온라인 인증이 필요하며 개인 PC 최대 3대에서 인증할 수 있습니다. 인증 후에는 해당 PC에서 오프라인으로 플레이할 수 있습니다."
   },
   "zh": {
     "eyebrow": "官方商店",
@@ -1087,6 +1097,7 @@ window.PIXELRED_SHOP_STRINGS={
     "privacyBeforeTitle": "开业之前",
     "privacyBeforeText": "最终政策将明确数据控制者、法律依据、保存期限、接收方、可能的数据传输及行使权利的方式。购买流程不包含营销订阅或广告同意选项。",
     "legalContact": "技术准备不代表已经开售。如有疑问，请联系：",
-    "gamePrivacy": "游戏隐私政策"
+    "gamePrivacy": "游戏隐私政策",
+    "licenseNotice": "PC版：个人密钥通过电子邮件发送，首次激活需要联网，最多可激活三台个人电脑。激活后可在该电脑上离线游玩。"
   }
 };
