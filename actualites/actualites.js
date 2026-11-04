@@ -71,5 +71,12 @@ function renderNews(lang){
  const boulitoTime=document.querySelector('#boulito time');if(boulitoTime)boulitoTime.textContent=new Intl.DateTimeFormat(lang,{year:'numeric',month:'long',day:'numeric'}).format(new Date('2026-10-20T12:00:00Z'));
  const schema=document.getElementById('blog-schema');if(schema){const data=JSON.parse(schema.textContent);data.name=t.title;data.inLanguage=lang;data.blogPost.forEach((post,index)=>{if(!t.posts[index])return;post.headline=t.posts[index].title;post.description=t.posts[index].summary;});schema.textContent=JSON.stringify(data);}
 }
+const newsList=document.getElementById('posts');
+if(newsList){
+ const cards=Array.from(newsList.querySelectorAll(':scope > article'));
+ const publicationDate=card=>card.querySelector('time[datetime]')?.dateTime || '';
+ cards.sort((a,b)=>publicationDate(b).localeCompare(publicationDate(a)));
+ newsList.append(...cards);
+}
 renderNews(langSelect.value||'fr');
 langSelect.addEventListener('change',()=>renderNews(langSelect.value));
