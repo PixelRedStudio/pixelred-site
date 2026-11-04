@@ -63,7 +63,7 @@ const games = {
   },
   "moltillion": {
     "name": "Moltillion",
-    "stage": "beta",
+    "stage": "production",
     "platforms": [
       "android"
     ],
