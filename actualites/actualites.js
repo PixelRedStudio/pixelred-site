@@ -69,6 +69,20 @@ function renderNews(lang){
  document.querySelectorAll('[data-trailer-field]').forEach(node=>{const value=(trailerCardCopy[lang]||trailerCardCopy.en)[node.dataset.trailerField];if(value)node.textContent=value;});
  const trailerTime=document.querySelector('#boulito-trailer time');if(trailerTime)trailerTime.textContent=new Intl.DateTimeFormat(lang,{year:'numeric',month:'long',day:'numeric'}).format(new Date('2026-10-21T12:00:00Z'));
  const boulitoTime=document.querySelector('#boulito time');if(boulitoTime)boulitoTime.textContent=new Intl.DateTimeFormat(lang,{year:'numeric',month:'long',day:'numeric'}).format(new Date('2026-10-20T12:00:00Z'));
+ document.querySelectorAll('#posts .news-card a[href^="./"]').forEach(link=>{
+ const slug=link.dataset.articleSlug || link.getAttribute('href').split('/')[1];
+ if(typeof articleLocales==='undefined' || !articleLocales[slug])return;
+ link.dataset.articleSlug=slug;
+ link.href='./'+slug+'/'+(lang==='fr'?'':'index.'+lang+'.html');
+ const card=link.closest('#moltillion-launch');
+ if(card){
+  const [headline,summary]=articleLocales[slug][lang] || articleLocales[slug].en;
+  card.querySelector('h2').textContent=headline;
+  card.querySelector('.news-summary').textContent=summary;
+  card.querySelector('time').textContent=new Intl.DateTimeFormat(lang,{year:'numeric',month:'long',day:'numeric'}).format(new Date('2026-11-04T12:00:00Z'));
+  link.textContent=(boulitoCardCopy[lang] || boulitoCardCopy.en).read+' ↗';
+ }
+ });
  const schema=document.getElementById('blog-schema');if(schema){const data=JSON.parse(schema.textContent);data.name=t.title;data.inLanguage=lang;data.blogPost.forEach((post,index)=>{if(!t.posts[index])return;post.headline=t.posts[index].title;post.description=t.posts[index].summary;});schema.textContent=JSON.stringify(data);}
 }
 const newsList=document.getElementById('posts');
