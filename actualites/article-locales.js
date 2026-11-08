@@ -48,47 +48,47 @@ const articleLocales = {
   "boulito-survie-arene": {
     "fr": [
       "Boulito PC et Android : comment survivre aux vagues dans l’arène",
-      "Boulito est disponible sur PC Windows dans notre boutique et en bêta Android. Découvrez les différences, la démo PC gratuite et nos conseils pour survivre aux vagues."
+      "Boulito, le roguelite de survie en arène de PixelRed Studio, est disponible sur Google Play. Assemblez vos armes et survivez aux vingt vagues."
     ],
     "en": [
       "Boulito PC and Android: how to survive waves in the arena",
-      "Boulito is available on Windows PC in our store and in Android beta. Discover the differences, the free PC demo and our tips for surviving the waves."
+      "Boulito, the arena survival roguelite from PixelRed Studio, is available on Google Play. Assemble your weapons and survive the twenty waves."
     ],
     "de": [
       "Boulito PC und Android: Wie man Wellen in der Arena übersteht",
-      "Boulito ist in unserem Store für Windows-PCs und in der Android-Beta verfügbar. Entdecken Sie die Unterschiede, die kostenlose PC-Demo und unsere Tipps zum Überleben auf den Wellen."
+      "Boulito, das Arena-Survival-Roguelite von PixelRed Studio, ist bei Google Play verfügbar. Stelle deine Waffen zusammen und überlebe die zwanzig Wellen."
     ],
     "es": [
       "Boulito PC y Android: cómo sobrevivir a las olas en la arena",
-      "Boulito está disponible para PC con Windows en nuestra tienda y en versión beta de Android. Descubre las diferencias, la demostración gratuita para PC y nuestros consejos para sobrevivir a las olas."
+      "Boulito, el roguelite de supervivencia en arenas de PixelRed Studio, está disponible en Google Play. Reúne tus armas y sobrevive a las veinte oleadas."
     ],
     "it": [
       "Boulito PC e Android: come sopravvivere alle onde nell'arena",
-      "Boulito è disponibile su PC Windows nel nostro negozio e in versione beta Android. Scopri le differenze, la demo gratuita per PC e i nostri consigli per sopravvivere alle onde."
+      "Boulito, il roguelite survival nell'arena di PixelRed Studio, è disponibile su Google Play. Assembla le tue armi e sopravvivi alle venti ondate."
     ],
     "pt": [
       "Boulito PC e Android: como sobreviver às ondas na arena",
-      "Boulito está disponível para Windows PC em nossa loja e em Android beta. Descubra as diferenças, a demonstração gratuita para PC e nossas dicas para sobreviver às ondas."
+      "Boulito, o roguelite de sobrevivência em arena do PixelRed Studio, está disponível no Google Play. Monte suas armas e sobreviva às vinte ondas."
     ],
     "pl": [
       "Boulito PC i Android: jak przetrwać fale na arenie",
-      "Boulito jest dostępny na PC z systemem Windows w naszym sklepie oraz w wersji beta systemu Android. Odkryj różnice, bezpłatną wersję demonstracyjną na PC i nasze wskazówki, jak przetrwać fale."
+      "Boulito, roguelite survivalowy na arenie od PixelRed Studio, jest dostępny w Google Play. Zbierz broń i przetrwaj dwadzieścia fal."
     ],
     "ru": [
       "Boulito ПК и Android: как пережить волны на арене",
-      "Boulito доступен на ПК с Windows в нашем магазине и в бета-версии Android. Узнайте о различиях, ознакомьтесь с бесплатной демоверсией для ПК и нашими советами по выживанию на волнах."
+      "Boulito, рогалик на выживание на арене от PixelRed Studio, доступен в Google Play. Соберите свое оружие и переживите двадцать волн."
     ],
     "ja": [
       "Boulito PC と Android: アリーナで波を乗り切る方法",
-      "Boulito は、ストアの Windows PC および Android ベータ版でご利用いただけます。違い、無料の PC デモ、波を生き抜くためのヒントをご覧ください。"
+      "PixelRed Studio のアリーナ サバイバル ローグライトである Boulito は、Google Play で入手できます。武器を組み立てて、20 回の波を生き延びましょう。"
     ],
     "ko": [
       "Boulito PC 및 Android: 경기장의 파도에서 살아남는 방법",
-      "Boulito는 Windows PC의 매장과 Android 베타에서 사용할 수 있습니다. 차이점, 무료 PC 데모 및 파도에서 살아남기 위한 팁을 알아보세요."
+      "Boulito를 Google Play에서 이용할 수 있습니다. 무기를 조립하고 20개의 파도에서 살아남으세요."
     ],
     "zh": [
       "Boulito PC 和 Android：如何在竞技场中生存",
-      "Boulito 可在我们的商店中的 Windows PC 上和 Android 测试版中使用。发现差异、免费 PC 演示以及我们的海浪求生技巧。"
+      "Boulito 是 PixelRed Studio 出品的竞技场生存 Roguelite 游戏，现已在 Google Play 上架。组装你的武器并在二十波浪潮中生存下来。"
     ]
   },
   "flickerun-memoire-sequences": {
@@ -273,6 +273,52 @@ const articleLocales = {
     "zh": [
       "移动设备上的反射游戏：获得精确度的 7 个技巧",
       "提高移动反射游戏精确度的七个实用技巧：预测、限制不必要的手势并通过 TapSafe 从错误中吸取教训。"
+    ]
+  },
+  "boulito-sortie-android": {
+    "fr": [
+      "Boulito est disponible sur Android",
+      "Boulito, le roguelite de survie en arène de PixelRed Studio, est disponible sur Google Play. Assemblez vos armes et survivez aux vingt vagues."
+    ],
+    "en": [
+      "Boulito is available on Android",
+      "Boulito, the arena survival roguelite from PixelRed Studio, is available on Google Play. Assemble your weapons and survive the twenty waves."
+    ],
+    "de": [
+      "Boulito ist für Android verfügbar",
+      "Boulito, das Arena-Survival-Roguelite von PixelRed Studio, ist bei Google Play verfügbar. Stelle deine Waffen zusammen und überlebe die zwanzig Wellen."
+    ],
+    "es": [
+      "Boulito está disponible en Android",
+      "Boulito, el roguelite de supervivencia en arenas de PixelRed Studio, está disponible en Google Play. Reúne tus armas y sobrevive a las veinte oleadas."
+    ],
+    "it": [
+      "Boulito è disponibile su Android",
+      "Boulito, il roguelite survival nell'arena di PixelRed Studio, è disponibile su Google Play. Assembla le tue armi e sopravvivi alle venti ondate."
+    ],
+    "pt": [
+      "Boulito está disponível para Android",
+      "Boulito, o roguelite de sobrevivência em arena do PixelRed Studio, está disponível no Google Play. Monte suas armas e sobreviva às vinte ondas."
+    ],
+    "pl": [
+      "Boulito jest dostępne na Androida",
+      "Boulito, roguelite survivalowy na arenie od PixelRed Studio, jest dostępny w Google Play. Zbierz broń i przetrwaj dwadzieścia fal."
+    ],
+    "ru": [
+      "Булито доступен на Android",
+      "Boulito, рогалик на выживание на арене от PixelRed Studio, доступен в Google Play. Соберите свое оружие и переживите двадцать волн."
+    ],
+    "ja": [
+      "Boulito は Android で利用可能です",
+      "PixelRed Studio のアリーナ サバイバル ローグライトである Boulito は、Google Play で入手できます。武器を組み立てて、20 回の波を生き延びましょう。"
+    ],
+    "ko": [
+      "Boulito는 Android에서 사용할 수 있습니다\nPixelRed Studio의 경기장 생존 게임",
+      "Boulito를 Google Play에서 이용할 수 있습니다. 무기를 조립하고 20개의 파도에서 살아남으세요."
+    ],
+    "zh": [
+      "Boulito 可在 Android 上使用",
+      "Boulito 是 PixelRed Studio 出品的竞技场生存 Roguelite 游戏，现已在 Google Play 上架。组装你的武器并在二十波浪潮中生存下来。"
     ]
   }
 };
