@@ -1,0 +1,39 @@
+.media-cover > img { display:block; width:100%; height:auto; aspect-ratio:1024 / 500; object-fit:contain; }
+.hero-feature.media-cover { transform:none; background:#151320; }
+.hero-feature.media-cover img { aspect-ratio:1024 / 500; }
+.hero-feature.media-cover .feature-caption {
+ position:static; padding:14px clamp(12px, 2.5vw, 24px);
+ background:#18151f; border-top:1px solid #ffffff1c;
+}
+.game-card .card-art.media-cover { height:auto; aspect-ratio:1024 / 500; }
+.game-card .card-art.media-cover > img { height:100%; }
+.game-card .media-cover .card-number { top:10px; left:10px; }
+.game-card .media-cover .platform { right:10px; bottom:8px; }
+.detail-art.media-cover { transform:none; box-shadow:0 24px 60px #0005; }
+.signal-art { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; padding:clamp(14px,3vw,32px); background:radial-gradient(ellipse at 25% 10%,#28565b,#151920 72%); }
+.signal-art img { width:100%; aspect-ratio:1; object-fit:cover; border:1px solid #ffffff25; border-radius:12px; }
+.signal-art figure { margin:0; min-width:0; }
+.signal-art figcaption { margin-top:10px; color:#d5e3e4; font-size:clamp(11px, 1.3vw, 14px); line-height:1.45; }
+.card-art.signal-art { height:auto; aspect-ratio:1024 / 500; }
+.card-art.signal-art img { height:100%; max-height:220px; }
+.media-showcase { border-top:1px solid var(--border); }
+.media-showcase h2 { margin:0 0 clamp(20px,3vw,34px); }
+.media-player { display:block; width:100%; max-width:100%; aspect-ratio:16 / 9; background:#080910; border:1px solid var(--border); border-radius:16px; object-fit:contain; }
+.media-showcase .media-player { max-width:960px; margin:0 auto clamp(24px,4vw,48px); box-shadow:0 22px 55px #0006; }
+.media-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:clamp(8px,1.8vw,24px); }
+.media-grid a { display:block; overflow:hidden; border:1px solid var(--border); border-radius:12px; background:var(--panel); }
+.media-grid a:hover { border-color:var(--game-accent,var(--red)); }
+.media-grid img { width:100%; height:auto; transition:transform .2s; }
+.media-grid a:hover img { transform:scale(1.025); }
+.article-content .media-player { margin:0 0 12px; }
+.article-content .media-archive { margin:0 0 26px; font-size:.9rem; }
+@media(max-width:700px) {
+ .media-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .media-grid a,.media-player { border-radius:9px; }
+ .signal-art { gap:8px; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .media-grid a:hover img { transform:none; }
+}
+.detail-actions { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+.detail-actions .button { gap:14px; }

@@ -31,6 +31,7 @@ function updateFilter(){
 function setLanguage(value){
  language=supported.includes(value)?value:'fr';
  document.documentElement.lang=language;
+ updateGameMedia(language,assetRoot);
  document.querySelectorAll('[data-i18n]').forEach(node=>{
   const text=message(node.dataset.i18n);
   if(['heroTitle','gamesTitle','betaTitle','studioTitle'].includes(node.dataset.i18n))node.innerHTML=text;
@@ -57,6 +58,9 @@ languagePicker.addEventListener('change',()=>{
   return;
  }
  setLanguage(selected);
+ const url=new URL(location.href);
+ url.searchParams.set('lang',language);
+ history.replaceState(null,'',url);
 });
 document.getElementById('year').textContent=String(new Date().getFullYear());
 if(pageLanguage==='fr'&&params.get('lang')==='en'){
