@@ -21,6 +21,7 @@ function render(){
  const description=document.querySelector('meta[name="description"]');if(description)description.content='Boulito · '+amount+' · '+text('intro')+' '+(available?text('delivery'):text('closed'));
  if(isThanks){document.getElementById('order-message').textContent=text(orderStatus);return;}
  if(!isStore)return;
+ updateGameMedia(language,root);
  document.getElementById('buy-button').textContent=text(available?(testMode?'testBuy':'buy'):'soon').replace(/4[,.]99\s*€|€\s*4[,.]99/,amount);
  document.getElementById('buy-button').disabled=!available||buying;
  ['accept-terms','immediate-delivery','promo-code'].forEach(id=>document.getElementById(id).disabled=!available||buying);
