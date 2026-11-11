@@ -1,6 +1,7 @@
 'use strict';
 window.PIXELRED_SHOP_STRINGS={
   "fr": {
+    "navNews": "Actualités",
     "eyebrow": "LA BOUTIQUE OFFICIELLE",
     "heading": "Prochaine mission : encore une partie.",
     "intro": "Tes jeux PixelRed Studio, directement auprès du studio.",
@@ -115,6 +116,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Prix de base en euros. Si Stripe propose une devise locale, le total et les frais de conversion sont affichés avant paiement."
   },
   "en": {
+    "navNews": "News",
     "eyebrow": "THE OFFICIAL SHOP",
     "heading": "Next mission: one more run.",
     "intro": "Your PixelRed Studio games, straight from the studio.",
@@ -229,6 +231,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Base price in euros. Where Stripe offers local currency, the total and conversion fees appear before payment."
   },
   "de": {
+    "navNews": "Neuigkeiten",
     "eyebrow": "DER OFFIZIELLE SHOP",
     "heading": "Nächste Mission: noch eine Runde.",
     "intro": "Deine PixelRed-Studio-Spiele, direkt vom Studio.",
@@ -343,6 +346,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Grundpreis in Euro. Optionale lokale Währung und Umrechnungsgebühren werden vor Zahlung angezeigt."
   },
   "es": {
+    "navNews": "Noticias",
     "eyebrow": "LA TIENDA OFICIAL",
     "heading": "Próxima misión: otra partida más.",
     "intro": "Tus juegos de PixelRed Studio, directamente del estudio.",
@@ -457,6 +461,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Precio base en euros. La moneda local opcional y las comisiones de conversión se muestran antes del pago."
   },
   "it": {
+    "navNews": "Notizie",
     "eyebrow": "IL NEGOZIO UFFICIALE",
     "heading": "Prossima missione: un’altra partita.",
     "intro": "I tuoi giochi PixelRed Studio, direttamente dallo studio.",
@@ -571,6 +576,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Prezzo base in euro. Valuta locale facoltativa e costi di conversione mostrati prima del pagamento."
   },
   "pt": {
+    "navNews": "Novidades",
     "eyebrow": "A LOJA OFICIAL",
     "heading": "Próxima missão: mais uma partida.",
     "intro": "Os teus jogos PixelRed Studio, diretamente do estúdio.",
@@ -685,6 +691,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Preço base em euros. Moeda local opcional e custos de conversão apresentados antes de pagar."
   },
   "pl": {
+    "navNews": "Aktualności",
     "eyebrow": "OFICJALNY SKLEP",
     "heading": "Następna misja: jeszcze jedna runda.",
     "intro": "Twoje gry PixelRed Studio prosto od twórców.",
@@ -799,6 +806,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Cena bazowa w euro. Opcjonalna waluta lokalna i opłaty przewalutowania widoczne przed zapłatą."
   },
   "ru": {
+    "navNews": "Новости",
     "eyebrow": "ОФИЦИАЛЬНЫЙ МАГАЗИН",
     "heading": "Следующая миссия: ещё один забег.",
     "intro": "Игры PixelRed Studio напрямую от студии.",
@@ -913,6 +921,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "Базовая цена в евро. Необязательная местная валюта и комиссии конвертации показываются до оплаты."
   },
   "ja": {
+    "navNews": "ニュース",
     "eyebrow": "公式ストア",
     "heading": "次のミッションは、もう一回。",
     "intro": "PixelRed Studioのゲームを、スタジオから直接。",
@@ -1027,6 +1036,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "基本価格はユーロです。任意の現地通貨と換算手数料は決済前に表示されます。"
   },
   "ko": {
+    "navNews": "소식",
     "eyebrow": "공식 상점",
     "heading": "다음 임무: 한 판 더.",
     "intro": "PixelRed Studio 게임을 스튜디오에서 직접 만나보세요.",
@@ -1141,6 +1151,7 @@ window.PIXELRED_SHOP_STRINGS={
     "currencyNotice": "기준 가격은 유로입니다. 선택적 현지 통화와 환전 수수료는 결제 전에 표시됩니다."
   },
   "zh": {
+    "navNews": "动态",
     "eyebrow": "官方商店",
     "heading": "下一个任务：再来一局。",
     "intro": "直接从 PixelRed Studio 购买我们的游戏。",

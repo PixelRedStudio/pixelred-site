@@ -31,7 +31,6 @@ function updateFilter(){
 function setLanguage(value){
  language=supported.includes(value)?value:'fr';
  document.documentElement.lang=language;
- updateGameMedia(language,assetRoot);
  document.querySelectorAll('[data-i18n]').forEach(node=>{
   const text=message(node.dataset.i18n);
   if(['heroTitle','gamesTitle','betaTitle','studioTitle'].includes(node.dataset.i18n))node.innerHTML=text;
@@ -49,6 +48,7 @@ function setLanguage(value){
  document.querySelectorAll('[data-news-link]').forEach(link=>{link.href=assetRoot+'actualites/?lang='+language;});
  try{localStorage.setItem('pixelred-language',language);}catch(_){}
  updateFilter();
+ if(typeof updateGameMedia==='function')updateGameMedia(language,assetRoot);
 }
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{activeFilter=button.dataset.filter;updateFilter();}));
 languagePicker.addEventListener('change',()=>{
