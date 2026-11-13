@@ -47,7 +47,7 @@ if(isStore){
  if(new URLSearchParams(location.search).has('cancelled')){purchaseMessageKey='cancelled';render();}
  document.getElementById('purchase-form').addEventListener('submit',async event=>{
   event.preventDefault();if(!available||buying)return;buying=true;render();
-  try{const result=await api('/checkout',{game:'boulito',language,promoCode:document.getElementById('promo-code').value.trim(),acceptTerms:document.getElementById('accept-terms').checked,immediateDelivery:document.getElementById('immediate-delivery').checked});const url=new URL(result.url);if(url.protocol!=='https:'||url.hostname!=='checkout.stripe.com')throw new Error(text('offline'));location.assign(url.href);}
+  try{const result=await api('/checkout',{game:'boulito',language,promoCode:document.getElementById('promo-code').value.trim(),acceptTerms:document.getElementById('accept-terms').checked,immediateDelivery:document.getElementById('immediate-delivery').checked});const url=new URL(result.url);if(url.protocol!=='https:'||url.hostname!=='checkout.stripe.com')throw new Error(text('offline'));if(!testMode){try{window.goatcounter?.count?.({path:'boulito-checkout-start',title:'Boulito checkout opened',event:true});}catch{}}location.assign(url.href);}
   catch(error){purchaseMessageKey=error.translationKey||'offline';buying=false;render();}
  });
  document.getElementById('recover-form').addEventListener('submit',async event=>{event.preventDefault();if(recovering)return;recovering=true;recoveryMessageKey='sending';render();try{await api('/resend',{email:document.getElementById('recover-email').value,language});recoveryMessageKey='sent';}catch(error){recoveryMessageKey=error.translationKey||'offline';}finally{recovering=false;render();}});

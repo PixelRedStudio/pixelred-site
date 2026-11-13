@@ -101,3 +101,5 @@ const boulitoInfoRows={
   ]
 };
 for(const [language,values] of Object.entries(boulitoInfoRows)){if(values.length!==boulitoInfoKeys.length)throw new Error("Boulito translation mismatch");boulitoInfoKeys.forEach((key,index)=>{copy[language][key]=values[index];});}
+
+for(const [lang,label] of Object.entries({"fr":"Démo Windows gratuite","en":"Free Windows demo","de":"Kostenlose Windows-Demo","es":"Demo gratuita para Windows","it":"Demo gratuita per Windows","pt":"Demo gratuita para Windows","pl":"Darmowe demo na Windows","ru":"Бесплатная демоверсия для Windows","ja":"Windows無料体験版","ko":"Windows 무료 체험판","zh":"Windows 免费试玩版"}))copy[lang].bWindowsDemo=label;

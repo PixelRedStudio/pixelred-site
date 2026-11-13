@@ -44,7 +44,7 @@ function setLanguage(value){
  });
  document.querySelectorAll('[data-home-link]').forEach(link=>{link.href=assetRoot+'?lang='+language+'#games';});
  document.querySelectorAll('[data-home-section]').forEach(link=>{link.href=assetRoot+'?lang='+language+'#'+link.dataset.homeSection;});
- document.querySelectorAll('[data-shop-link]').forEach(link=>{link.href=assetRoot+'boutique/?lang='+language;});
+ document.querySelectorAll('[data-shop-link]').forEach(link=>{link.href=assetRoot+'boutique/?lang='+language+link.dataset.shopLink;});
  document.querySelectorAll('[data-news-link]').forEach(link=>{link.href=assetRoot+'actualites/?lang='+language;});
  try{localStorage.setItem('pixelred-language',language);}catch(_){}
  updateFilter();
