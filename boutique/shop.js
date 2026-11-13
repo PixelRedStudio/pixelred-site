@@ -39,7 +39,9 @@ async function api(route,body){
  const result=await response.json();if(!response.ok){const key=result.code==='invalid_promo'?'invalidPromo':response.status===429?'errorRate':response.status===403?'errorForbidden':response.status===400?'errorInvalid':'offline';throw Object.assign(new Error(text(key)),{translationKey:key});}return result;
 }
 let stored;try{stored=localStorage.getItem('pixelred-language');}catch{}
-const requested=new URLSearchParams(location.search).get('lang')||stored||navigator.language;
+const query=new URLSearchParams(location.search);
+const fromDemo=query.get('source')==='boulito-demo';
+const requested=query.get('lang')||stored||navigator.language;
 const normalise=value=>String(value||'').toLowerCase().split(/[-_]/)[0];
 language=Object.hasOwn(strings,normalise(requested))?normalise(requested):'en';
 document.getElementById('language').addEventListener('change',event=>{language=event.target.value;try{localStorage.setItem('pixelred-language',language);}catch{}const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);render();});render();
@@ -47,7 +49,7 @@ if(isStore){
  if(new URLSearchParams(location.search).has('cancelled')){purchaseMessageKey='cancelled';render();}
  document.getElementById('purchase-form').addEventListener('submit',async event=>{
   event.preventDefault();if(!available||buying)return;buying=true;render();
-  try{const result=await api('/checkout',{game:'boulito',language,promoCode:document.getElementById('promo-code').value.trim(),acceptTerms:document.getElementById('accept-terms').checked,immediateDelivery:document.getElementById('immediate-delivery').checked});const url=new URL(result.url);if(url.protocol!=='https:'||url.hostname!=='checkout.stripe.com')throw new Error(text('offline'));if(!testMode){try{window.goatcounter?.count?.({path:'boulito-checkout-start',title:'Boulito checkout opened',event:true});}catch{}}location.assign(url.href);}
+  try{const result=await api('/checkout',{game:'boulito',language,promoCode:document.getElementById('promo-code').value.trim(),acceptTerms:document.getElementById('accept-terms').checked,immediateDelivery:document.getElementById('immediate-delivery').checked});const url=new URL(result.url);if(url.protocol!=='https:'||url.hostname!=='checkout.stripe.com')throw new Error(text('offline'));if(!testMode){try{window.goatcounter?.count?.({path:'boulito-checkout-start',title:'Boulito checkout opened',event:true});if(fromDemo)window.goatcounter?.count?.({path:'boulito-demo-checkout-start',title:'Boulito checkout from completed demo',event:true});}catch{}}location.assign(url.href);}
   catch(error){purchaseMessageKey=error.translationKey||'offline';buying=false;render();}
  });
  document.getElementById('recover-form').addEventListener('submit',async event=>{event.preventDefault();if(recovering)return;recovering=true;recoveryMessageKey='sending';render();try{await api('/resend',{email:document.getElementById('recover-email').value,language});recoveryMessageKey='sent';}catch(error){recoveryMessageKey=error.translationKey||'offline';}finally{recovering=false;render();}});
