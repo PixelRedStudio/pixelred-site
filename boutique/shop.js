@@ -41,6 +41,7 @@ async function api(route,body){
 let stored;try{stored=localStorage.getItem('pixelred-language');}catch{}
 const query=new URLSearchParams(location.search);
 const fromDemo=query.get('source')==='boulito-demo';
+if(isStore&&fromDemo){try{window.goatcounter?.count?.({path:'boulito-demo-store-arrival',title:'Boulito store visit from completed demo',event:true});}catch{}}
 const requested=query.get('lang')||stored||navigator.language;
 const normalise=value=>String(value||'').toLowerCase().split(/[-_]/)[0];
 language=Object.hasOwn(strings,normalise(requested))?normalise(requested):'en';
